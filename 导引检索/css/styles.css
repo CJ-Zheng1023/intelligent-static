@@ -6,3 +6,78 @@
     width: 79%;
     float: right;
 }
+.main-guide .left-side .box-content{
+    padding: 2px;
+}
+.main-guide .accordion ul{
+    list-style: none;
+}
+.main-guide .accordion .wrapper{
+    border: 1px solid rgb(158,186,229);
+    padding: 0 5px;
+    background-color: rgb(223,232,247);
+    margin-bottom: 3px;
+}
+.main-guide .accordion .wrapper.active>.accordion-item{
+    background-image: url("../images/unextend-icon.png");
+}
+.main-guide .accordion .accordion-item{
+    display: block;
+    text-decoration: none;
+    color: #15487f;
+    font-size: 12px;
+    font-weight: bold;
+    background-image: url("../images/extend-icon.png");
+    background-repeat: no-repeat;
+    background-position: right center;
+    line-height: 22px;
+    text-align: center;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+    padding-right: 20px;
+}
+.main-guide .accordion .sub .wrapper{
+    border: none;
+}
+.main-guide .accordion .sub .accordion-item{
+    background-image: none;
+    padding-right: 0;
+    text-align: left;
+}
+.main-guide .case-ipc-info{
+    padding: 6px 10px;
+}
+.main-guide .case-ipc-info strong{
+    float: left;
+    font-size: 12px;
+    color: rgb(21,72,127);
+    padding-left: 22px;
+    background-image: url("../../images/edit-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-guide .case-ipc-info ul{
+    float: left;
+    list-style: none;
+    line-height: 1;
+}
+.main-guide .case-ipc-info ul li{
+    margin-left: 15px;
+    float: left;
+}
+.main-guide .case-ipc-info ul li a{
+    font-size: 12px;
+    color: rgb(11,11,11);
+    text-decoration: none;
+    padding-left: 17px;
+    background-image: url("../images/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-guide .case-ipc-info ul li a.active{
+    background-image: url("../images/checkbox.png");
+}
+.main-guide .case-ipc-info .case-ipc-info-item{
+    margin-bottom: 10px;
+}
