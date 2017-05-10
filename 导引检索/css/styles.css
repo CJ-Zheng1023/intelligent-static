@@ -81,3 +81,29 @@
 .main-guide .case-ipc-info .case-ipc-info-item{
     margin-bottom: 10px;
 }
+.main-guide .ipc-area{
+    height: 345px;
+}
+.main-guide .ipc-tree{
+    float: left;
+    width: 23%;
+    background-color: #fff;
+    height: 100%;
+}
+.main-guide .ipc-meaning{
+    float: left;
+    width: 77%;
+    height: 100%;
+}
+.main-guide .ipc-meaning .wrapper{
+    border-left: 1px solid rgb(158,186,229);
+    height: 100%;
+}
+.main-guide .ipc-meaning .cn-meaning{
+    float: left;
+    width: 50%;
+}
+.main-guide .ipc-meaning .en-meaning{
+    float: left;
+    width: 50%;
+}
