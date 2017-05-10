@@ -105,6 +105,9 @@ body{
 .title-bar-border-bottom{
     border-bottom: 1px solid rgb(158,186,229);
 }
+.main .table-area{
+    margin-top: 5px;
+}
 
 /*** zhengchj end ***/
 
