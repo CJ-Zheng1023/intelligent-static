@@ -10,6 +10,59 @@
     float: right;
 }
 /*** zhengchj start ***/
+body{
+    min-width: 1100px;
+}
+.header ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 3px 0;
+}
+.header li{
+    float: left;
+}
+.menu-list ul li{
+    margin: 0 20px 0 10px;
+    padding: 3px 5px;
+}
+.menu-list ul li:hover{
+    background-color: rgb(189,211,237);
+}
+.menu-list ul li.active{
+    background-color: rgb(189,211,237);
+}
+.menu-list ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(51,51,51);
+    display: block;
+    padding-left: 17px;
+    background-image: url("../images/menu-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.tool-list ul li{
+    margin-right: 40px;
+    padding: 3px 0;
+}
+.tool-list ul li a.tool-item{
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(51,51,51);
+    display: block;
+    padding-left: 22px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.tool-list .tool-item.tool-item-setting{
+    background-image: url("../images/settings-icon.png");
+}
+.tool-list .tool-item.tool-item-question{
+    background-image: url("../images/question-icon.png");
+}
+.tool-list .tool-item.tool-item-logout{
+    background-image: url("../images/logout-icon.png");
+}
 
 /*** zhengchj end ***/
 
