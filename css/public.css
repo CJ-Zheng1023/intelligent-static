@@ -85,6 +85,17 @@ body{
     border: 1px solid rgb(158,186,229);
     height: 400px;
 }
+.title-bar{
+    height: 24px;
+    background-image: url("../images/title-bar.png");
+    background-repeat: repeat-x;
+}
+.title-bar-border-top{
+    border-top: 1px solid rgb(158,186,229);
+}
+.title-bar-border-bottom{
+    border-bottom: 1px solid rgb(158,186,229);
+}
 
 /*** zhengchj end ***/
 
