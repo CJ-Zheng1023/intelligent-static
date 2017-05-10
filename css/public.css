@@ -129,7 +129,18 @@ body{
 .tab-box .tab-btn-box .tab-btn-content a{font-size:12px;color:#15487f;}
 .tab-center{display:inline-block;*display:inline; *zoom:1;}
 /** 表格**/
+.t-h-w10{width:10%}
+.t-h-w15{width:15%}
+.t-h-w20{width:20%}
+.t-h-w30{width:30%}
+.t-h-w70{width:70%}
+.t-h-w80{width:80%}
 .table{width:100%;}
 .table .table-thead {}
-.table .table-thead th{background-color:#f4f4f4;font-size: 12px;color:#15487f;}
+.table .table-thead th{padding:5px 0;border-top:1px solid #9ebae5;border-bottom:1px solid #9ebae5;background-color:#f4f4f4;font-size: 12px;color:#15487f;}
+.table .table-tbody{}
+.table .table-tbody tr {text-align: center;}
+.table .table-tbody tr td{padding:10px 5px;background:#f9fdff;vertical-align: middle;font-size:12px;color:#333;border-bottom:1px solid #dcdcdc;}
+.table .table-tbody tr.active td{background:#d4e1f2;}
+
 /*** tianhf start ***/
