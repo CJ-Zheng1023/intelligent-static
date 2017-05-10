@@ -1,0 +1,8 @@
+.main-guide .left-side{
+    width: 20%;
+    float: left;
+}
+.main-guide .right-side{
+    width: 79%;
+    float: right;
+}

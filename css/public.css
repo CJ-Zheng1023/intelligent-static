@@ -1,24 +1,24 @@
-.header{
+.header-button{
     height: 29px;
     background-image: url("../images/header-bar1.png");
     background-repeat: repeat-x;
 }
-.header .menu-list{
+.header-button .menu-list{
     float: left;
 }
-.header .tool-list{
+.header-button .tool-list{
     float: right;
 }
 /*** zhengchj start ***/
 body{
     min-width: 1100px;
 }
-.header ul{
+.header-button ul{
     list-style: none;
     overflow: hidden;
     padding: 3px 0;
 }
-.header li{
+.header-button li{
     float: left;
 }
 .menu-list ul li{
@@ -77,6 +77,13 @@ body{
 }
 .header .header-info .wrapper span.space{
     margin-right: 18px;
+}
+.main{
+    margin: 6px;
+}
+.box{
+    border: 1px solid rgb(158,186,229);
+    height: 400px;
 }
 
 /*** zhengchj end ***/
