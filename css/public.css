@@ -112,7 +112,8 @@ body{
 
 
 /*** tianhf start ***/
-
+.pull-right{float:right;}
+.pull-left{float:left;}
 .tab-box{height:25px;padding-top:5px;background:#d4e1f2;text-align: center;}
 /*.tab-box ul{display: block;height:100%;text-align: center;}
 .tab-box li{display: block;height:100%;float:left;width:91px;margin: 0 9px;}
