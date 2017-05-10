@@ -114,7 +114,7 @@ body{
 
 /*** tianhf start ***/
 
-.tab-box{height:30px;background:#d4e1f2;}
+.tab-box{height:30px;background:#d4e1f2;text-align: center;}
 /*.tab-box ul{display: block;height:100%;text-align: center;}
 .tab-box li{display: block;height:100%;float:left;width:91px;margin: 0 9px;}
 .tab-box li a{display: block;height:100%;line-height:30px;font-size:12px;color:#15487f;background:url("../images/tab-bg.png") no-repeat center center;
@@ -124,7 +124,12 @@ body{
 .tab-box .tab-btn-box .tab-btn-right{float: left;width:4px;height:24px;background: url("../images/tab-btn-right.png") no-repeat center center;}
 .tab-box .tab-btn-box.active .tab-btn-left{background: url("../images/tab-btn-left-active.png") no-repeat center center;}
 .tab-box .tab-btn-box.active .tab-btn-right{background: url("../images/tab-btn-right-active.png") no-repeat center center;}
-.tab-box .tab-btn-box .tab-btn-content {float: left;height:24px;border-top:1px solid #7090b7;background:url("../images/tab-btn-content.png") repeat-x center center;}
+.tab-box .tab-btn-box .tab-btn-content {float: left;height:24px;padding:0 5px;background:url("../images/tab-btn-content.png") repeat-x center center;}
 .tab-box .tab-btn-box.active .tab-btn-content{background:url("../images/tab-btn-content-active.png") repeat-x center center;}
 .tab-box .tab-btn-box .tab-btn-content a{font-size:12px;color:#15487f;}
+.tab-center{display:inline-block;}
+/** 表格**/
+.table{width:100%;}
+.table .table-thead {}
+.table .table-thead th{background-color:#f4f4f4;font-size: 12px;color:#15487f;}
 /*** tianhf start ***/
