@@ -29,10 +29,18 @@
 }
 .list-area .list-item .item-title{
     color: rgb(21,72,127);
+    float: left;
 }
 .list-area .list-item .content-wrapper{
     padding-left: 130px;
     margin-top: 5px;
+    position: relative;
+    min-height: 86px;
+}
+.list-area .list-item .content-wrapper .item-image{
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .list-area .list-item .item-field-value{
     float: left;
@@ -49,4 +57,7 @@
     overflow:hidden;
     text-overflow:ellipsis;
     white-space: nowrap;
+}
+.list-area .list-item .button-group{
+    float: right;
 }

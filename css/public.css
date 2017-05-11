@@ -108,6 +108,20 @@ body{
 .main .table-area{
     margin-top: 5px;
 }
+.button-group{
+    overflow: hidden;
+}
+.button{
+    display: inline-block;
+    background-image: url("../images/btn-blue.png");
+    background-repeat: repeat-x;
+    border: 1px solid rgb(158,186,229);
+    padding: 0 10px;
+    text-decoration: none;
+    line-height: 20px;
+    color: #fff;
+    margin: 0 5px;
+}
 
 /*** zhengchj end ***/
 
