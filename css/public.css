@@ -122,6 +122,18 @@ body{
     color: #fff;
     margin: 0 5px;
 }
+.icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-decoration: none;
+}
+.icon.icon-view{
+    background-image: url("../images/view-icon.png");
+}
+.icon.icon-delete{
+    background-image: url("../images/delete-icon.png");
+}
 
 /*** zhengchj end ***/
 

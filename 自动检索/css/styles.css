@@ -61,3 +61,6 @@
 .list-area .list-item .button-group{
     float: right;
 }
+.table-area .icon{
+    margin: 0 10px;
+}
