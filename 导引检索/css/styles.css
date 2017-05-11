@@ -9,6 +9,9 @@
 .main-guide .left-side .box-content{
     padding: 2px;
 }
+.main-guide .accordion{
+    height: 515px;
+}
 .main-guide .accordion ul{
     list-style: none;
 }
@@ -106,4 +109,9 @@
 .main-guide .ipc-meaning .en-meaning{
     float: left;
     width: 50%;
+}
+.main-guide .meaning-content{
+    padding: 10px 18px;
+    font-size: 12px;
+    color: rgb(47,47,47);
 }

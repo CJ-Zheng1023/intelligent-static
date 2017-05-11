@@ -1,0 +1,63 @@
+.main-auto .tab-search{
+    font-size: 12px;
+    float: right;
+    margin-right: 10px;
+}
+.main-auto .tab-search label{
+    color: rgb(21,72,127);
+}
+.main-auto .tab-search input[type='text']{
+    border: 1px solid rgb(181,181,181);
+    margin: 0;
+    line-height: 18px;
+    padding: 0 5px;
+    width: 300px;
+}
+.list-area .wrapper{
+    padding: 10px;
+}
+.list-area ul{
+    list-style: none;
+}
+.list-area .list-item{
+    border: 1px solid rgb(201,201,201);
+    font-size: 12px;
+    padding: 10px 13px;
+}
+.list-area ul li{
+    margin-bottom: 6px;
+}
+.list-area .list-item .item-title{
+    color: rgb(21,72,127);
+    float: left;
+}
+.list-area .list-item .content-wrapper{
+    padding-left: 130px;
+    margin-top: 5px;
+    position: relative;
+    min-height: 86px;
+}
+.list-area .list-item .content-wrapper .item-image{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.list-area .list-item .item-field-value{
+    float: left;
+    width: 300px;
+    margin-right: 30px;
+    line-height: 20px;
+}
+.list-area .list-item .item-content span{
+    color: rgb(73,73,73);
+}
+.list-area .list-item .item-abs{
+    margin-top: 13px;
+    width: 900px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.list-area .list-item .button-group{
+    float: right;
+}
