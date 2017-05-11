@@ -1,0 +1,11 @@
+.main-smart .left-side{
+    float: left;
+    width: 20%;
+}
+.main-smart .right-side{
+    float: right;
+    width: 79%;
+}
+.main-smart .condition-area{
+    padding: 5px;
+}
