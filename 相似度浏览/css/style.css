@@ -1,8 +1,11 @@
 @charset "utf-8";
 
+.main-similarity  .box-content{height:100%;}
 .main-similarity .left-side{float:left;width:20%;}
 .main-similarity .right-side{float:right;width:79%;}
-.main-similarity .box{min-height: 261px;}
+.main-similarity .right-side .box{height: 344px;}
+.main-similarity .right-side .box.similarity-top-height{height: 373px;}
+.main-similarity .left-side .box-height{height:1020px;padding-bottom:44px;}
 
 
 
