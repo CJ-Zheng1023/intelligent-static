@@ -282,6 +282,7 @@ body{
 .t-h-w20{width:20%}
 .t-h-w25{width:25%}
 .t-h-w30{width:30%}
+.t-h-w33{width:33.33%}
 .t-h-w35{width:35%}
 .t-h-w40{width:40%}
 .t-h-w45{width:45%}
@@ -323,4 +324,5 @@ body{
 .page-box .page-text{float:left;font-size: 12px;color:#787878;height:100%;line-height: 24px;padding:0 5px;}
 .page-box .page-input{float:left;border:1px solid #9ebae5;}
 .page-box .page-input input{width:50px;border: 0;height: 100%;padding:3px 0;}
+.text-center{text-align: center !important;}
 /*** tianhf start ***/
