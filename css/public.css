@@ -1,3 +1,4 @@
+a{text-decoration:none;}
 .header-button{
     height: 29px;
     background-image: url("../images/header-bar1.png");
@@ -130,9 +131,12 @@ body{
 
 /*** tianhf start ***/
 .padding-0{padding:0 !important;}
+.border-bottom-0{border-bottom:0 !important;}
 .pull-right{float:right;}
 .pull-left{float:left;}
 .bar{height:30px;background:#d4e1f2;}
+.bar .bar-content{text-align: center;height:20px;line-height: 20px;padding:5px 10px;}
+.bar-text{display:inline-block;*display:inline; *zoom:1;color:#15487f;font-size:14px;text-align: center;margin:0 auto;}
 
 
 .tab-box{height:25px;padding-top:5px;background:#d4e1f2;text-align: center;}
@@ -184,6 +188,6 @@ body{
 .patent-img-box{width:179px;height:201px;margin: 0 auto;border:1px solid #dedede;}
 
 /*** btn **/
-.btn{height:19px;width:60px;line-height :19px;border:1px solid #9ebae5;background:url("../images/btn-bg.png") repeat-x center center;font-size:12px;color:#15487f;text-align: center;}
+.btn{display:inline-block;*display:inline;*zoom:1;height:19px;padding:0 15px;line-height :19px;border:1px solid #9ebae5;background:url("../images/btn-bg.png") repeat-x center center;font-size:12px;color:#15487f;text-align: center;}
 .btn a{color:#15487f;}
 /*** tianhf start ***/
