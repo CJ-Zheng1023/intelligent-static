@@ -196,6 +196,6 @@ body{
 .patent-img-box{width:179px;height:201px;margin: 0 auto;border:1px solid #dedede;}
 
 /*** btn **/
-.btn{}
-
+.btn{height:19px;width:60px;line-height :19px;border:1px solid #9ebae5;background:url("../images/btn-bg.png") repeat-x center center;font-size:12px;color:#15487f;text-align: center;}
+.btn a{color:#15487f;}
 /*** tianhf start ***/
