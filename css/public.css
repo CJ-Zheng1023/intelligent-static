@@ -122,6 +122,7 @@ body{
     line-height: 20px;
     color: #fff;
     margin: 0 5px;
+    font-size: 12px;
 }
 .icon{
     display: inline-block;
@@ -215,6 +216,12 @@ body{
     color: rgb(21,72,127);
     padding-left: 22px;
     background-image: url("../images/edit-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.field-item .checkbox{
+    padding-left: 15px;
+    background-image: url("../images/checkbox.png");
     background-repeat: no-repeat;
     background-position: left center;
 }

@@ -7,10 +7,67 @@
     width: 79%;
 }
 .main-smart .condition-area{
-    padding: 5px;
+    padding: 5px 0;
 }
 /** zhengchj start **/
+.main-smart .condition-area .form-row{
+    padding: 15px 5px;
+    border-bottom: 1px solid rgb(238,238,238);
+}
+.main-smart .condition-area .form-row .wrapper{
+    float: left;
+}
+.main-smart .condition-area .form-row .field-item{
+    line-height: 17px;
+}
+.main-smart .condition-area .form-row select{
+    border: 1px solid rgb(181,181,181);
+    line-height: 18px;
+}
+.main-smart .condition-area .form-row .wrapper.wrapper-left{
+     width: 40%;
+ }
+.main-smart .condition-area .form-row .wrapper.wrapper-right{
+    width: 60%;
+}
+.main-smart .input-container{
+    padding-right: 25px;
+    max-width: 175px;
+    line-height: 1;
+    position: relative;
+}
+.main-smart .input-container .add-icon{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/add-icon.png");
+    cursor: pointer;
+}
+.main-smart .input-container input[type='text']{
+    margin: 0;
+    padding: 0 1%;
+    border: 1px solid rgb(181,181,181);
+    line-height: 18px;
+    width: 98%;
 
+}
+.main-smart .condition-area .checkbox-list li{
+    margin: 0 10px 0 0;
+}
+.main-smart .form-groups{
+    margin-bottom: 20px;
+}
+.main-smart .condition-area .btn-wrapper{
+    text-align: center;
+}
+.main-smart .condition-area .button-group{
+    text-align: center;
+}
+.main-smart .condition-area .form-row.form-row-last{
+    border-bottom: none;
+}
 /** zhengchj end **/
 
 
