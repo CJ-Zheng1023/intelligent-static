@@ -80,4 +80,8 @@
 .table .table-title{background:#f0f1f2;text-align: center;color:#444444;}
 .table .table-content{color:#444444;padding:10px 20px;}
 .table .table-content.patent-name{color:#5cace3;}
+.padding-7{padding:7px 0 !important;}
+.smart-img-box{padding:0 33px;}
+.smart-img-box .smart-img-name{color:#464748;padding:10px 5px;}
+.smart-img-box .smart-img{width:324px;height:336px;border:1px solid #dedede;}
 /** tianhf end **/
