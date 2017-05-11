@@ -84,9 +84,10 @@ body{
 }
 .box{
     border: 1px solid rgb(158,186,229);
+    background-color: rgb(249,253,255);
 }
 .box .box-content{
-    background-color: rgb(249,253,255);
+
 }
 .title-bar{
     height: 24px;
