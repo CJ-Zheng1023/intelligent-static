@@ -210,6 +210,34 @@ body{
     padding: 0 5px;
     width: 300px;
 }
+.field-item{
+    font-size: 12px;
+    color: rgb(21,72,127);
+    padding-left: 22px;
+    background-image: url("../images/edit-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.checkbox-list{
+    list-style: none;
+    line-height: 1;
+}
+.checkbox-list.horizontal li{
+    margin-left: 15px;
+    float: left;
+}
+.checkbox-list li a{
+    font-size: 12px;
+    color: rgb(11,11,11);
+    text-decoration: none;
+    padding-left: 17px;
+    background-image: url("../images/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.checkbox-list li a.active{
+    background-image: url("../images/checkbox.png");
+}
 
 /*** zhengchj end ***/
 
