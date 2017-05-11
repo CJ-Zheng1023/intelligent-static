@@ -113,8 +113,12 @@ body{
 
 
 /*** tianhf start ***/
+.padding-0{padding:0 !important;}
 .pull-right{float:right;}
 .pull-left{float:left;}
+.bar{height:30px;background:#d4e1f2;}
+
+
 .tab-box{height:25px;padding-top:5px;background:#d4e1f2;text-align: center;}
 /*.tab-box ul{display: block;height:100%;text-align: center;}
 .tab-box li{display: block;height:100%;float:left;width:91px;margin: 0 9px;}
@@ -133,9 +137,21 @@ body{
 .t-h-w10{width:10%}
 .t-h-w15{width:15%}
 .t-h-w20{width:20%}
+.t-h-w25{width:25%}
 .t-h-w30{width:30%}
+.t-h-w35{width:35%}
+.t-h-w40{width:40%}
+.t-h-w45{width:45%}
+.t-h-w60{width:60%}
+.t-h-w65{width:65%}
+.t-h-w50{width:50%}
+.t-h-w55{width:55%}
 .t-h-w70{width:70%}
+.t-h-w75{width:75%}
 .t-h-w80{width:80%}
+.t-h-w85{width:85%}
+.t-h-w90{width:90%}
+.t-h-w100{width:100%}
 .table{width:100%;}
 .table .table-thead {}
 .table .table-thead th{padding:5px 0;border-top:1px solid #9ebae5;border-bottom:1px solid #9ebae5;background-color:#f4f4f4;font-size: 12px;color:#15487f;}
@@ -143,5 +159,15 @@ body{
 .table .table-tbody tr {text-align: center;}
 .table .table-tbody tr td{padding:10px 5px;background:#f9fdff;vertical-align: middle;font-size:12px;color:#333;border-bottom:1px solid #dcdcdc;}
 .table .table-tbody tr.active td{background:#d4e1f2;}
+
+.patent-info{width:79%;font-size: 12px;color:#444;}
+.patent-info .patent-content{padding:40px;}
+.patent-info .patent-content table tr td{padding:10px 0;}
+.patent-info .patent-content table tr td.patent-title{width:170px;}
+.patent-img{width:20%;padding:40px 0;}
+.patent-img-box{width:179px;height:201px;margin: 0 auto;border:1px solid #dedede;}
+
+/*** btn **/
+.btn{}
 
 /*** tianhf start ***/

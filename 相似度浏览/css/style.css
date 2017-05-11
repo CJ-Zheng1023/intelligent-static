@@ -2,6 +2,7 @@
 
 .main-similarity .left-side{float:left;width:20%;}
 .main-similarity .right-side{float:right;width:79%;}
+.main-similarity .box{min-height: 261px;}
 
 
 
