@@ -68,6 +68,22 @@
 .main-smart .condition-area .form-row.form-row-last{
     border-bottom: none;
 }
+.main-smart .desc-area{
+    padding: 20px 25px;
+}
+.main-smart .desc-area .desc-part{
+    margin-bottom: 70px;
+}
+.main-smart  .desc-part h1{
+    font-size: 12px;
+    color: rgb(1,174,253);
+    margin-bottom: 15px;
+}
+.main-smart  .desc-part p{
+    font-size: 12px;
+    color: rgb(68,68,68);
+    line-height: 20px;
+}
 /** zhengchj end **/
 
 
