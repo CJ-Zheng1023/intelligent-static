@@ -325,4 +325,10 @@ body{
 .page-box .page-input{float:left;border:1px solid #9ebae5;}
 .page-box .page-input input{width:50px;border: 0;height: 100%;padding:3px 0;}
 .text-center{text-align: center !important;}
+.mask-box{position:fixed;left:0;top:0;right:0;bottom:0;background: #959899;opacity: .5;
+    filter:alpha(opacity=50);
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    /*IE4-IE9*/
+    filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}
 /*** tianhf start ***/
