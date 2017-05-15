@@ -107,3 +107,30 @@
 .main-guide .box-content-inner{
     padding: 10px;
 }
+.main-guide .textarea-wrapper{
+    margin: 5px 0;
+
+}
+.main-guide .textarea-wrapper textarea{
+    width: 98%;
+    border: none;
+    background-color: rgb(242,242,243);
+    height: 100px;
+    padding: 10px 1%;
+    outline: none;
+}
+.main-guide .textarea-wrapper textarea:focus{
+    border: none;
+    outline: none;
+}
+.main-guide .textarea-wrapper textarea:active{
+    border: none;
+    outline: none;
+}
+.main-guide .tab-search{
+    margin-top: 2px;
+}
+.main-guide .table-wrapper-history{
+    padding-left: 0;
+    padding-right: 0;
+}

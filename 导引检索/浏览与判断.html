@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>导引检索</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/public.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div class="header">
+    <div class="header-button clearfix">
+        <div class="menu-list">
+            <ul>
+                <li>
+                    <a href="javascript:;">自动检索</a>
+                </li>
+                <li>
+                    <a href="javascript:;">智能检索</a>
+                </li>
+                <li class="active">
+                    <a href="javascript:;">导引检索</a>
+                </li>
+                <li>
+                    <a href="javascript:;">相似度浏览</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tool-list">
+            <ul>
+                <li>
+                    <a href="javascript:;" class="tool-item tool-item-setting">设置</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="tool-item tool-item-question">问卷</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="tool-item tool-item-logout">退出</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-info">
+        <div class="wrapper">
+            <span>申请号：</span>
+            <span class="space">20071231</span>
+            <span>申请人：</span>
+            <span class="space">三星公司</span>
+            <span>发明名称：</span>
+            <span>液晶显示装置</span>
+        </div>
+    </div>
+</div>
+<div class="main main-guide">
+    <div class="clearfix">
+        <div class="left-side">
+            <div class="box">
+                <div class="title-bar title-bar-border-bottom">
+                    <h1 class="title-name">导引检索</h1>
+                </div>
+                <div class="box-content">
+                    <div class="accordion">
+                        <ul>
+                            <li>
+                                <div class="wrapper active">
+                                    <a href="javascript:;" class="accordion-item">1.确定分类号</a>
+                                </div>
+                                <ul class="sub">
+                                    <li>
+                                        <div class="wrapper">
+                                            <a href="javascript:;" class="accordion-item">案卷给出的分类号信息</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="wrapper">
+                                            <a href="javascript:;" class="accordion-item">案卷给出的分类号信息</a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="wrapper">
+                                            <a href="javascript:;" class="accordion-item">案卷给出的分类号信息</a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <div class="wrapper">
+                                    <a href="javascript:;" class="accordion-item">2.获取检索有用信息</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrapper">
+                                    <a href="javascript:;" class="accordion-item">3.确定基本检索要素</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrapper">
+                                    <a href="javascript:;" class="accordion-item">4.分类号表达</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrapper">
+                                    <a href="javascript:;" class="accordion-item">5.关键词表达</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrapper">
+                                    <a href="javascript:;" class="accordion-item">6.选择数据库</a>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="wrapper">
+                                    <a href="javascript:;" class="accordion-item">7.检索结果浏览与判断</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="box">
+                <div class="title-bar title-bar-border-bottom">
+                    <div class="title-name">检索区</div>
+                </div>
+                <div class="box-content">
+                    <div class="box-content-inner">
+                        <div class="clearfix">
+                            <div class="pull-right">
+                                <div class="btn active">
+                                    <a href="javascript:;">AND</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">OR</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">NOT</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">(</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">)</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="textarea-wrapper">
+                            <textarea></textarea>
+                        </div>
+                        <div class="clearfix">
+                            <div class="button-group pull-right">
+                                <a href="javascript:;" class="button">检 索</a>
+                                <a href="javascript:;" class="button">自动拼接</a>
+                                <a href="javascript:;" class="button">清 空</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="title-bar title-bar-border-bottom title-bar-border-top">
+                    <div class="clearfix">
+                        <div class="title-name pull-left">检索历史</div>
+                        <div class="tab-search">
+                            <label>搜索：</label>
+                            <input placeholder="请输入搜索内容" type="text">
+                        </div>
+                    </div>
+                </div>
+                <div class="box-content">
+                    <div class="box-content-inner">
+                        <div class="clearfix">
+                            <div class="pull-right">
+                                <div class="btn active">
+                                    <a href="javascript:;">综 合</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">DWPI</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">SIPOABS</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">CPRSABS</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">TWABS</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">CNABS</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">JPABS</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">VEN</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">USTXT</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">WOTXT</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">EPTXT</a>
+                                </div>
+                                <div class="btn">
+                                    <a href="javascript:;">JPTXT</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="table-wrapper table-wrapper-history">
+                            <table cellspacing="0" class="table table-custom">
+                                <thead>
+                                <tr>
+                                    <th class="t-h-w15">编号</th>
+                                    <th class="t-h-w15">数据库</th>
+                                    <th class="t-h-w40">检索式</th>
+                                    <th class="t-h-w15">命中数</th>
+                                    <th class="t-h-w15">浏览</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>01</td>
+                                    <td>USTXT</td>
+                                    <td>phone/ti</td>
+                                    <td>0</td>
+                                    <td>
+                                        <a href="javascript:;" class="icon icon-view"></a>
+                                    </td>
+                                </tr>
+                                <tr class="odd">
+                                    <td>02</td>
+                                    <td>USTXT</td>
+                                    <td>phone/ti</td>
+                                    <td>0</td>
+                                    <td>
+                                        <a href="javascript:;" class="icon icon-view"></a>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="clearfix">
+                            <div class="button-group pull-right">
+                                <a href="javascript:;" class="button">导 出</a>
+                                <a href="javascript:;" class="button">删 除</a>
+                                <a href="javascript:;" class="button">全部删除</a>
+                                <a href="javascript:;" class="button">刷 新</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="table-area">
+        <div class="box">
+            <div class="title-bar">
+                <p class="title-name">导引检索</p>
+            </div>
+
+            <div class="box-content">
+                <!--- table -->
+                <table class="table"  cellspacing="0">
+                    <thead>
+                    <tr class="table-thead">
+                        <th class="t-h-w20">检索要素</th>
+                        <th class="t-h-w30">分类号</th>
+                        <th class="t-h-w30">关键词</th>
+                        <th class="t-h-w20">编辑</th>
+                    </tr>
+                    </thead>
+                    <tbody class="table-tbody">
+                    <tr>
+                        <td><p>01</p></td>
+                        <td><p>G02F1;G02F1/1362</p></td>
+                        <td>强度;电路装置</td>
+                        <td><a href="javascript:;" class="icon icon-view"></a></td>
+                    </tr>
+                    <tr>
+                        <td><p>02</p></td>
+                        <td><p>G02F1;G02F1/1362</p></td>
+                        <td>强度;电路装置</td>
+                        <td><a href="javascript:;" class="icon icon-view"></a></td>
+                    </tr>
+                    <tr>
+                        <td><p>03</p></td>
+                        <td><p>G02F1;G02F1/1362</p></td>
+                        <td>强度;电路装置</td>
+                        <td><a href="javascript:;" class="icon icon-view"></a></td>
+                    </tr>
+                    <tr>
+                        <td><p>04</p></td>
+                        <td><p>G02F1;G02F1/1362</p></td>
+                        <td>强度;电路装置</td>
+                        <td><a href="javascript:;" class="icon icon-view"></a></td>
+                    </tr>
+
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

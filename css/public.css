@@ -200,15 +200,15 @@ body{
     float: left;
     margin: 4px 1px 0 1px;
 }
-.tab-box .tab-search{
+.tab-search{
     font-size: 12px;
     float: right;
     margin-right: 10px;
 }
-.tab-box .tab-search label{
+.tab-search label{
     color: rgb(21,72,127);
 }
-.tab-box .tab-search input[type='text']{
+.tab-search input[type='text']{
     border: 1px solid rgb(181,181,181);
     margin: 0;
     line-height: 18px;
@@ -335,7 +335,10 @@ body{
 .patent-img-box{width:179px;height:201px;margin: 0 auto;border:1px solid #dedede;}
 
 /*** btn **/
-.btn{display:inline-block;*display:inline;*zoom:1;height:19px;padding:0 15px;line-height :19px;border:1px solid #9ebae5;background:url("../images/btn-bg.png") repeat-x center center;font-size:12px;color:#15487f;text-align: center;}
+.btn{display:inline-block;*display:inline;*zoom:1;height:19px;padding:0 15px;line-height :19px;border:1px solid #9ebae5;background:url("../images/btn-bg.png") repeat-x center center;font-size:12px;color:#15487f;text-align: center;*margin-left: 3px;*margin-right: 3px;}
+.btn.active{
+    background-image: url("../images/btn-bg-active.png");
+}
 .btn a{color:#15487f;}
 
 /*** 分布***/
