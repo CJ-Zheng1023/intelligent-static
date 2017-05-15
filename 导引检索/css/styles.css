@@ -134,3 +134,14 @@
     padding-left: 0;
     padding-right: 0;
 }
+.main-guide .statistic-part{
+    width: 27%;
+    float: left;
+}
+.main-guide .table-part{
+    width: 70%;
+    float: right;
+}
+.main-guide .btn-container{
+    margin-bottom: 30px;
+}
