@@ -252,7 +252,7 @@ body{
     background-position: left center;
 }
 .checkbox-list li a.active{
-    background-image: url("../images/checkbox.png");
+    background-image: url("../images/checkbox-active.png");
 }
 
 .wrapper-info{width:80%;margin: 0 auto;}
