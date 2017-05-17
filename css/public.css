@@ -366,4 +366,50 @@ body{
     /*IE4-IE9*/
     filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
 }
+.case-ipc-info-new .checkbox-list.horizontal li{
+    height: 16px;
+    margin-bottom:5px;
+    margin-left: 0;
+    padding:5px 10px;
+
+    float: left;
+}
+.case-ipc-info-new .checkbox-list.horizontal li.active{background-color:#d4e1f2;}
+.case-ipc-info-new .checkbox-list li a{
+    display: block;
+    padding-left:0;
+    height:100%;
+    line-height: 16px;
+    font-size: 12px;
+    color: rgb(11,11,11);
+    text-decoration: none;
+    background-image:none;
+    /*padding-left: 17px;*/
+    /*background-image: url("../images/checkbox.png");
+    background-repeat: no-repeat;
+    background-position: left center;*/
+}
+.case-ipc-info-new .field-item{
+    font-size: 12px;
+    padding: 5px 10px;
+    color: rgb(21,72,127);
+    padding-left: 22px;
+    line-height: 16px;
+    background-image: url("../images/edit-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.case-ipc-info-new .case-ipc-info-item .checkbox-more{
+    cursor: pointer;
+    height:27px;
+    width:30px;
+    position: absolute;
+    top:0;
+    right:11px;
+    background:url("../images/extend-icon.png") no-repeat center center;
+}
+.case-ipc-info-new .case-ipc-info-item .checkbox-more.active{background-image: url("../images/unextend-icon.png")}
+.case-ipc-info-new .case-ipc-info-item.height-auto {height: auto !important;}
+.case-ipc-info-new .case-ipc-info-item.padding-left-60{padding-left:60px !important;}
+.case-ipc-info-new .case-ipc-info-item.padding-left-90{padding-left:90px; !important;}
 /*** tianhf start ***/

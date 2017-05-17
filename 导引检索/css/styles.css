@@ -94,6 +94,7 @@
 .main-guide .box-content-case{
     height: 148px;
     overflow-y: auto;
+    *position:relative;*top:0;*left:0;
 }
 .main-guide .case-ipc-info .info-title{
     margin-bottom: 20px;
@@ -145,3 +146,22 @@
 .main-guide .btn-container{
     margin-bottom: 30px;
 }
+
+/*** tianhf ***/
+.main-guide .case-ipc-info-new strong{
+    float: none;
+    position: absolute;
+    left:0;
+}
+.main-guide .case-ipc-info-new ul{
+    float: none;
+}
+.main-guide .case-ipc-info-new .case-ipc-info-item{
+    /*margin-bottom: 10px;*/
+    position: relative;
+    height:31px;
+    padding-left:139px;
+    padding-right:50px;
+    overflow:hidden;
+}
+/*** tianhf ***/
