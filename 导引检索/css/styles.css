@@ -81,10 +81,12 @@
 .main-guide .ipc-meaning .cn-meaning{
     float: left;
     width: 50%;
+    *width: 49.9%;
 }
 .main-guide .ipc-meaning .en-meaning{
     float: left;
     width: 50%;
+    *width: 49.9%;
 }
 .main-guide .meaning-content{
     padding: 10px 18px;

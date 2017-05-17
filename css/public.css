@@ -412,4 +412,12 @@ body{
 .case-ipc-info-new .case-ipc-info-item.height-auto {height: auto !important;}
 .case-ipc-info-new .case-ipc-info-item.padding-left-60{padding-left:60px !important;}
 .case-ipc-info-new .case-ipc-info-item.padding-left-90{padding-left:90px; !important;}
+.case-ipc-info-new .checkbox-list li label{
+    vertical-align: middle;
+    display: block;
+    line-height: 16px;
+    font-size: 12px;
+    color: rgb(11,11,11);  }
+.case-ipc-info-new .checkbox-list li label span{margin-left:5px;}
+.case-ipc-info-new .checkbox-list li label input{vertical-align: middle;}
 /*** tianhf start ***/
