@@ -105,7 +105,7 @@ body{
 }
 .title-bar .table-add-img{
     height: 25px;width: 25px;margin-left:10px;
-    background:url("../images/table-add.png") no-repeat right center;
+    background:url("../images/table-add.png") no-repeat center center;
 }
 
 .title-bar .title-name .special{
@@ -218,7 +218,7 @@ body{
 .tab-search input[type='text']{
     border: 1px solid rgb(181,181,181);
     margin: 0;
-    line-height: 18px;
+
     padding: 0 5px;
     width: 300px;
 }
