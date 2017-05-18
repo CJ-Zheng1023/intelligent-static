@@ -1,4 +1,5 @@
-a{text-decoration:none;}
+@charset "utf-8";
+a{text-decoration:none;outline: 0;}
 .header-button{
     height: 29px;
     background-image: url("../images/header-bar1.png");
@@ -90,6 +91,7 @@ body{
 
 }
 .title-bar{
+    position: relative;
     height: 24px;
     background-image: url("../images/title-bar.png");
     background-repeat: repeat-x;
@@ -101,6 +103,11 @@ body{
     margin-left: 10px;
     font-weight: bold;
 }
+.title-bar .table-add-img{
+    height: 25px;width: 25px;margin-left:10px;
+    background:url("../images/table-add.png") no-repeat right center;
+}
+
 .title-bar .title-name .special{
     color: rgb(243,59,98);
 }
@@ -352,7 +359,7 @@ body{
 
 /*** 分布***/
 .page-box{height:24px;padding:10px 5px;background-color: rgb(249,253,255);}
-.page-box .page-content-box{height:100%;text-align: center;line-height: 20px;}
+.page-box .page-content-box{height:100%;text-align: center;line-height: 20px;margin:0 auto;}
 .page-box .page-content{display:inline-block;*display:inline;*zoom:1;height: 100%}
 .page-box .page-Previous{float:left;}
 .page-box .page-next{float:right;}
