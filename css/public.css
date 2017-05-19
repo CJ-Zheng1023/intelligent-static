@@ -335,7 +335,7 @@ body{
 .t-h-w85{width:85%}
 .t-h-w90{width:90%}
 .t-h-w100{width:100%}
-.table{width:100%;}
+.table{width:100%; caption-side: top; border-collapse: collapse; empty-cells: hide;}
 .table .table-thead {}
 .table .table-thead th{padding:5px 0;border-top:1px solid #9ebae5;border-bottom:1px solid #9ebae5;background-color:#f4f4f4;font-size: 12px;color:#15487f;}
 .table .table-tbody{}
