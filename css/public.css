@@ -106,6 +106,7 @@ body{
 .title-bar .table-add-img{
     height: 25px;width: 25px;margin-left:10px;
     background:url("../images/table-add.png") no-repeat center center;
+    cursor:pointer;
 }
 
 .title-bar .title-name .special{
@@ -341,7 +342,7 @@ body{
 .table .table-tbody{}
 .table .table-tbody tr {text-align: center;}
 .table .table-tbody tr td{padding:5px;background:#f9fdff;vertical-align: middle;font-size:12px;color:#333;border-bottom:1px solid #dcdcdc;}
-.table .table-tbody tr td .table-input{display:block;float:left;border:1px solid #dedede;width:80px;height:24px;line-height: 24px;margin:0 5px;cursor:pointer;}
+.table .table-tbody tr td .table-input{display:block;float:left;border:1px solid #dedede;width:80px;height:24px;text-align: center;line-height: 24px;margin:0 5px;cursor:pointer;}
 .table .table-tbody tr td .table-input-add{display:block;float:left;width:50px;height:24px;margin:0 5px;background: url("../images/table-add.png") no-repeat center center;cursor:pointer;}
 .table .table-tbody tr.active td{background:#d4e1f2;}
 
@@ -429,4 +430,11 @@ body{
     color: rgb(11,11,11);  }
 .case-ipc-info-new .checkbox-list li label span{margin-left:5px;}
 .case-ipc-info-new .checkbox-list li label input{vertical-align: middle;}
+.empty_tip{
+    font-size: 20px;
+    font-weight: bolder;
+    line-height: 1;
+    text-align: center;
+    color: #999999;
+}
 /*** tianhf start ***/
