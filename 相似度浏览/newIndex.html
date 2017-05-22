@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>相似度浏览</title>
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../css/public.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+<div class="header">
+    <div class="header-button clearfix">
+        <div class="menu-list">
+            <ul>
+                <li>
+                    <a href="javascript:;">自动检索</a>
+                </li>
+                <li>
+                    <a href="javascript:;">智能检索</a>
+                </li>
+                <li class="">
+                    <a href="javascript:;">导引检索</a>
+                </li>
+                <li class="active">
+                    <a href="javascript:;">相似度浏览</a>
+                </li>
+            </ul>
+        </div>
+        <div class="tool-list">
+            <ul>
+                <li>
+                    <a href="javascript:;" class="tool-item tool-item-setting">设置</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="tool-item tool-item-question">问卷</a>
+                </li>
+                <li>
+                    <a href="javascript:;" class="tool-item tool-item-logout">退出</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-info">
+        <div class="wrapper">
+            <span>申请号：</span>
+            <span class="space">20071231</span>
+            <span>申请人：</span>
+            <span class="space">三星公司</span>
+            <span>发明名称：</span>
+            <span>液晶显示装置</span>
+        </div>
+    </div>
+</div>
+<div class="main main-similarity">
+    <div class="clearfix">
+        <div class="left-side">
+            <div class="box box-height">
+                <div class="box-content">
+                    <div class="title-bar title-bar-border-bottom">
+                        <p class="title-name">导引检索</p>
+                    </div>
+                    <div class="tab-box">
+                        <div class="tab-center  clearfix">
+                            <div class="tab-btn-box clearfix">
+                                <div class="tab-btn-left"></div>
+                                <div class="tab-btn-content"><a href="javascript:void(0);">待览列表</a></div>
+                                <div class="tab-btn-right"></div>
+                            </div>
+
+                            <div class="tab-btn-box active clearfix">
+                                <div class="tab-btn-left"></div>
+                                <div class="tab-btn-content"><a href="javascript:void(0);">对比库</a></div>
+                                <div class="tab-btn-right"></div>
+                            </div>
+
+                            <div class="tab-btn-box active clearfix">
+                                <div class="tab-btn-left"></div>
+                                <div class="tab-btn-content"><a href="javascript:void(0);">备选库</a></div>
+                                <div class="tab-btn-right"></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--- table -->
+                    <table class="table" cellspacing="0">
+                        <thead>
+                        <tr class="table-thead">
+                            <th class="t-h-w15">序号</th>
+                            <th class="t-h-w70">文献信息</th>
+                            <th class="t-h-w15">相似度</th>
+                        </tr>
+                        </thead>
+                        <tbody class="table-tbody">
+                        <tr>
+                            <td><p>01</p></td>
+                            <td><p>CN201410789795 <br> 一种利用电镀污泥处理含磷/鳞...</p></td>
+                            <td>41.46%</td>
+                        </tr>
+                        <tr class="active">
+                            <td><p>01</p></td>
+                            <td><p>CN201410789795 <br> 一种利用电镀污泥处理含磷/鳞...</p></td>
+                            <td>41.46%</td>
+                        </tr>
+                        <tr>
+                            <td><p>01</p></td>
+                            <td><p>CN201410789795 <br> 一种利用电镀污泥处理含磷/鳞...</p></td>
+                            <td>41.46%</td>
+                        </tr>
+                        <tr class="active">
+                            <td><p>01</p></td>
+                            <td><p>CN201410789795 <br> 一种利用电镀污泥处理含磷/鳞...</p></td>
+                            <td>41.46%</td>
+                        </tr>
+                        <tr>
+                            <td><p>01</p></td>
+                            <td><p>CN201410789795 <br> 一种利用电镀污泥处理含磷/鳞...</p></td>
+                            <td>41.46%</td>
+                        </tr>
+                        <tr class="active">
+                            <td><p>01</p></td>
+                            <td><p>CN201410789795 <br> 一种利用电镀污泥处理含磷/鳞...</p></td>
+                            <td>41.46%</td>
+                        </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div class="page-box">
+                    <div class="page-content-box clearfix">
+                        <div class="page-next">
+                            <div class="btn">
+                                <a href="javascript:void(0)">下一页</a>
+                            </div>
+                        </div>
+                        <div class="page-Previous">
+                            <div class="btn">
+                                <a href="javascript:void(0)">上一页</a>
+                            </div>
+                        </div>
+                        <div class="page-content clearfix">
+                            <div class="page-text">共22页,跳转至</div>
+                            <div class="page-input"><input type="text"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="right-side">
+            <div class="box">
+                <div class="box-content">
+                    <div class="title-bar title-bar-border-bottom">
+                        <p class="title-name">文獻信息</p>
+                    </div>
+                    <div class="bar title-bar-border-bottom">
+                        <div class="bar-content">
+                            <ul class="bar-list-box">
+                                <li><a href="javascript:void(0);">添加至备选库</a></li>
+                                <li><a href="javascript:void(0);">添加至对比库</a></li>
+                                <li><a href="javascript:void(0);">查看全文图像</a></li>
+                                <li><a href="javascript:void(0);">附图</a></li>
+                                <li><a href="javascript:void(0);">高亮</a></li>
+                                <li><a href="javascript:void(0);">高密</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="bar title-bar-border-bottom">
+                        <div class="bar-content clearfix">
+                            <p class="pull-left browse-p">当前文献来源数据库: <span>CNABS</span></p>
+                            <p class="pull-left browse-p">当前检索式: <span>SS1</span></p>
+                            <p class="bar-text pull-right">申请号： <span>CN200910205758 20090710【CN】</span></p>
+                        </div>
+                    </div>
+                    <div class="bar title-bar-border-bottom">
+                        <div class="bar-content clearfix">
+                            <div class="btn pull-right">
+                                <a href="javascript:void(0)">下一篇</a>
+                            </div>
+                            <div class="btn pull-left">
+                                <a href="javascript:void(0)">上一篇</a>
+                            </div>
+                            <p class="bar-text">一种利用电镀污泥处理含磷/鳞电镀废水的方法</p>
+
+                        </div>
+                    </div>
+                    <div class="bar bar-bg title-bar-border-bottom">
+                        <div class="bar-content">
+                            <div class="radio-box pull-left"><label><input name="radio" type="radio"> <span class="radio">公开/公告</span></label></div>
+                            <div class="radio-box pull-left"><label><input name="radio" type="radio"> <span class="radio">授权/公告</span></label></div>
+                            <div class="radio-box pull-left"><label><input name="radio" type="radio"> <span class="radio">附加信息</span></label></div>
+                        </div>
+                    </div>
+                    <div class="bar title-bar-border-bottom">
+                        <div class="bar-content">
+                            <div class="radio-box pull-left"><label><span>授权公告:</span><input name="radio" type="radio"> <span>公开/公告</span></label></div>
+                        </div>
+                    </div>
+                    <div class="bar bar-bg title-bar-border-bottom">
+                        <div class="bar-content">
+                            <div class="radio-box pull-left"><label><input name="radio" type="radio"> <span class="radio">著录项目</span></label></div>
+                            <div class="radio-box pull-left"><label><input name="radio" type="radio"> <span class="radio">权利要求书</span></label></div>
+                            <div class="radio-box pull-left"><label><input name="radio" type="radio"> <span class="radio">法律状态</span></label></div>
+                        </div>
+                    </div>
+                    <div class="similarity-info-box clearfix">
+                        <div class="similarity-info-left pull-left">
+
+                            <div class="patent-info ">
+                                <div class="patent-content">
+                                    <table class="patent-table">
+                                        <tbody><tr>
+                                            <td class="patent-title">【公告日】</td>
+                                            <td>2015.11.11</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【IPC】</td>
+                                            <td>H04M1/02</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【申请人】</td>
+                                            <td>上海锐益信息技术有限公司</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【发明人】</td>
+                                            <td>李冰洋</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【专利权人】</td>
+                                            <td>上海锐益信息技术有限公司</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【发明名称】</td>
+                                            <td>一种兼容BP-4L电池的4寸智能手机布局结构</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【申请专利类型】</td>
+                                            <td>使用新型专利</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【同族号码】</td>
+                                            <td>CN204761508U</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【简单族号】</td>
+                                            <td>CN201520492984</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【国省代码】</td>
+                                            <td>31</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="patent-title">【国省名称】</td>
+                                            <td>上海</td>
+                                        </tr>
+
+                                        </tbody></table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="similarity-info-right pull-right">
+                            <div class="similarity-info-right-top">
+                                <div class="bar title-bar-border-bottom">
+                                    <div class="bar-content">
+                                        <p class="title-name">文獻信息</p>
+                                    </div>
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+                            <div class="similarity-info-right-bottom">
+                                <div class="bar title-bar-border-top title-bar-border-bottom">
+                                    <div class="bar-content">
+                                        <p class="title-name">文獻信息</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -102,4 +102,15 @@
 .smart-img-box .smart-img{width:324px;height:336px;border:1px solid #dedede;}
 .text-box{padding:10px 20px;}
 .text-box p{font-size: 12px;color:#444;margin: 5px 0;line-height: 1.4;text-indent: 2em;}
+.text-box .header{}
+.text-box .title {text-align: center;    font-weight: bolder;  font-size: 18px;}
+.text-box .header li{display:block;width:80px;font-size:12px;}
+.text-box .content{
+    padding-bottom: 10px;
+    text-align: left;
+    vertical-align: top;
+    word-break: break-all;
+    line-height: 150%;
+    font: 12px/2.0 "Microsoft YaHei", arial, sans-serif;}
+.info_file_img{padding:10px;}
 /** tianhf end **/

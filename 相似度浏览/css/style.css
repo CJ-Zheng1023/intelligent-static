@@ -3,7 +3,7 @@
 .main-similarity  .box-content{height:100%;}
 .main-similarity .left-side{float:left;width:20%;}
 .main-similarity .right-side{float:right;width:79%;}
-.main-similarity .right-side .box{height: 344px;}
+.main-similarity .right-side .box{height: 1064px;}
 .main-similarity .right-side .box.similarity-top-height{height: 373px;}
 .main-similarity .left-side .box-height{height:1020px;padding-bottom:44px;}
 .main-similarity .left-side .box-height .page-box .btn{padding:0 4px;}
@@ -74,4 +74,35 @@
     padding: 15px 25px;
 }
 
+.bar-list-box{display:block;overflow: hidden;}
+.bar-list-box li{font-size:12px;color:#15487f;float:left;background:url("../images/bar-list-right.png") no-repeat right center}
+.bar-list-box li a{color:#15487f;padding:5px 10px;}
+.browse-p{padding:0px 10px;font-size:12px;color:#787878;}
+.browse-p span{font-size:12px;background-color:#00a7d5;color:#FFF;padding: 3px 10px;}
+.bar.bar-bg{background-color:#f0f1f2;}
+.radio-box{padding: 0 10px;font-size:12px;}
+.radio-box label{display: block;vertical-align: middle;height:20px;line-height: 20px;}
+.radio-box input{margin-right:5px;vertical-align: middle;}
+.radio-box label span.radio{color:#787878;}
+.radio-box label span{color:#282828;}
+.similarity-info-box{width:100%;height:853px;}
+.similarity-info-box .similarity-info-left{width:48%;height:853px;border-right:1px solid rgb(158,186,229);}
+.similarity-info-box .similarity-info-right{width:51.9%;height:853px;}
+.similarity-info-box .similarity-info-right .similarity-info-right-top{height:50%;}
+.similarity-info-box .similarity-info-right .similarity-info-right-bottom{height:50%;}
+
+.patent-info .patent-content{width:100%;}
+.patent-info .patent-content table{font-size:16px;color:#444;}
+.patent-info .patent-content table td{padding:24px 0 !important;}
+.patent-info .patent-content table tr td.patent-title{color:#15487f;}
+
+
+.title-name {
+    color: #15487f;
+    font-size: 12px;
+    line-height: 21px;
+    margin-left: 10px;
+    font-weight: bold;
+    text-align: left;
+}
 
