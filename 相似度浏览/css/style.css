@@ -106,3 +106,25 @@
     text-align: left;
 }
 
+.contentbox_div b[title]{
+    color: rgb(68,68,68);
+    margin-left: 10px;
+    margin-bottom: 0;
+    display: inline-block;
+    width: 200px;
+    font-size: 100%;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+#view_projectDescriptionc0 p {
+    margin-bottom: 15px;
+    margin-left: 4px;
+    margin-right: 10px;
+    padding-left: 210px;
+    position: relative;
+}
+
