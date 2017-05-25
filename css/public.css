@@ -440,3 +440,20 @@ body{
     color: #999999;
 }
 /*** tianhf start ***/
+
+
+
+/** added 2017.5.25 start **/
+
+.main-new .title-bar{
+    background-image: url("../images/title-bar-new.png");
+    height: 38px;
+}
+.main-new .title-bar .title-name{
+    font-size: 18px;
+    line-height: 38px;
+    color: #15487f;
+}
+
+
+/** added 2017.5.25 end **/

@@ -168,3 +168,22 @@
 }
 
 /*** tianhf ***/
+
+
+
+/** added 2017.5.25 start **/
+
+.main-guide .title-bar .title-name.title-name-guide{
+    padding-left: 22px;
+    background-image: url("../images/guide-title-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-guide .accordion .wrapper.active>.accordion-item{
+    background-image: url("../images/unextend-icon-new.png");
+}
+.main-guide .accordion .accordion-item{
+    background-image: url("../images/extend-icon-new.png");
+}
+
+/** added 2017.5.25 end **/
