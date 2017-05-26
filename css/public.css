@@ -624,3 +624,105 @@ body{
 }
 
 /** added 2017.5.25 end **/
+
+
+/** added 2017.5.26 start **/
+.header{
+    background-image: url("../images/header-bg.png");
+    height: 86px;
+    line-height: 86px;
+}
+.header .header-inner .logo{
+    float: left;
+    margin-left: 25px;
+    padding-left: 55px;
+    font-size: 30px;
+    color: #fff;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.header .header-inner .tools{
+    float: right;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+.header .tools .menus{
+    margin-right: 70px;
+    float: left;
+}
+.header .tools .menus li{
+    float: left;
+    padding: 10px;
+    margin: 0 12px;
+    border-radius: 4px;
+}
+.header .tools .menus li.active{
+    background-color: rgb(48,116,179);
+}
+.header .tools .menus li:hover{
+    background-color: rgb(48,116,179);
+}
+.header .tools .menus li a{
+    display: block;
+    padding-top: 32px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    line-height: 16px;
+    font-size: 14px;
+    color: #fff;
+}
+.header .tools .menus li a.auto-search{
+    background-image: url("../images/auto-search-icon.png");
+}
+.header .tools .menus li a.smart-search{
+    background-image: url("../images/smart-search-icon.png");
+}
+.header .tools .menus li a.guide-search{
+    background-image: url("../images/guide-search-icon.png");
+}
+.header .tools .menus li a.similar-search{
+    background-image: url("../images/similar-view-icon.png");
+}
+.header .tools .settings{
+    float: left;
+}
+.header .tools .settings a{
+    margin: 7px 0;
+    padding-left: 28px;
+    font-size: 14px;
+    color: #fff;
+    background-position: left center;
+    background-repeat: no-repeat;
+    display: block;
+    line-height: 20px;
+}
+.header .tools .settings a.search-fields{
+    background-image: url("../images/search-fields-icon.png");
+}
+.header .tools .settings a.customs{
+    background-image: url("../images/customs-icon.png");
+    color: rgb(153,196,234);
+}
+.field-name-list{
+    border-bottom: 1px solid rgb(229,229,229);
+    margin-left: -15px;
+    margin-right: -15px;
+    padding-bottom: 10px;
+}
+.field-name-list .inner{
+    padding: 0 15px;
+}
+.field-name-list li{
+    cursor: pointer;
+}
+.field-name-list li.active{
+    border: 1px solid rgb(92,172,235);
+    color: rgb(92,172,235);
+    background-color: #fff !important;
+}
+.main-new.main-guide .case-ipc-info .case-ipc-info-item{
+    margin-top: 10px;
+}
+
+/** added 2017.5.26 end **/
