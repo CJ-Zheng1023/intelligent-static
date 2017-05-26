@@ -627,12 +627,12 @@ body{
 
 
 /** added 2017.5.26 start **/
-.header{
+.header.header-new{
     background-image: url("../images/header-bg.png");
     height: 86px;
     line-height: 86px;
 }
-.header .header-inner .logo{
+.header.header-new .header-inner .logo{
     float: left;
     margin-left: 25px;
     padding-left: 55px;
@@ -642,28 +642,28 @@ body{
     background-repeat: no-repeat;
     background-position: left center;
 }
-.header .header-inner .tools{
+.header.header-new .header-inner .tools{
     float: right;
     margin-right: 25px;
     margin-top: 10px;
 }
-.header .tools .menus{
+.header.header-new .tools .menus{
     margin-right: 70px;
     float: left;
 }
-.header .tools .menus li{
+.header.header-new .tools .menus li{
     float: left;
     padding: 10px;
     margin: 0 12px;
     border-radius: 4px;
 }
-.header .tools .menus li.active{
+.header.header-new .tools .menus li.active{
     background-color: rgb(48,116,179);
 }
-.header .tools .menus li:hover{
+.header.header-new .tools .menus li:hover{
     background-color: rgb(48,116,179);
 }
-.header .tools .menus li a{
+.header.header-new .tools .menus li a{
     display: block;
     padding-top: 32px;
     background-position: center top;
@@ -672,22 +672,22 @@ body{
     font-size: 14px;
     color: #fff;
 }
-.header .tools .menus li a.auto-search{
+.header.header-new .tools .menus li a.auto-search{
     background-image: url("../images/auto-search-icon.png");
 }
-.header .tools .menus li a.smart-search{
+.header.header-new .tools .menus li a.smart-search{
     background-image: url("../images/smart-search-icon.png");
 }
-.header .tools .menus li a.guide-search{
+.header.header-new .tools .menus li a.guide-search{
     background-image: url("../images/guide-search-icon.png");
 }
-.header .tools .menus li a.similar-search{
+.header.header-new .tools .menus li a.similar-search{
     background-image: url("../images/similar-view-icon.png");
 }
-.header .tools .settings{
+.header.header-new .tools .settings{
     float: left;
 }
-.header .tools .settings a{
+.header.header-new .tools .settings a{
     margin: 7px 0;
     padding-left: 28px;
     font-size: 14px;
@@ -697,10 +697,10 @@ body{
     display: block;
     line-height: 20px;
 }
-.header .tools .settings a.search-fields{
+.header.header-new .tools .settings a.search-fields{
     background-image: url("../images/search-fields-icon.png");
 }
-.header .tools .settings a.customs{
+.header.header-new .tools .settings a.customs{
     background-image: url("../images/customs-icon.png");
     color: rgb(153,196,234);
 }

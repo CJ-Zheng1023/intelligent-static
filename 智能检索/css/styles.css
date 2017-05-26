@@ -114,3 +114,16 @@
     font: 12px/2.0 "Microsoft YaHei", arial, sans-serif;}
 .info_file_img{padding:10px;}
 /** tianhf end **/
+
+/** added 2017.5.26 start **/
+.main-smart .title-bar .title-name.title-name-smart{
+    padding-left: 25px;
+    background-image: url("../images/smart-title-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+
+
+
+/** added 2017.5.26 end **/
