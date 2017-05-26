@@ -122,6 +122,12 @@
     background-repeat: no-repeat;
     background-position: left center;
 }
+.main-smart.main-new .input-container input[type='text']{
+    line-height: 23px;
+}
+.main-new.main-smart .input-container .add-icon{
+    top: 2px;
+}
 
 
 
