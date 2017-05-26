@@ -220,7 +220,6 @@ body{
 .tab-search input[type='text']{
     border: 1px solid rgb(181,181,181);
     margin: 0;
-
     padding: 0 5px;
     width: 300px;
 }
@@ -454,6 +453,174 @@ body{
     line-height: 38px;
     color: #15487f;
 }
-
+.disc{
+    background-image: url("../images/disc.png") !important;
+    background-repeat: no-repeat;
+    background-position: left center !important;
+}
+*{
+    font-family: "Microsoft YaHei";
+}
+.main-new .case-ipc-info-new .field-item{
+    font-size: 16px;
+    color: rgb(21,72,127);
+    background-image: url("../images/disc-deep-blue.png");
+}
+.main-new .box{
+    background-color: #fff;
+}
+.main-new .case-ipc-info-new .checkbox-list li a{
+    font-size: 16px;
+}
+.main-new .case-ipc-info-new .checkbox-list li label span{
+    font-size: 16px;
+}
+.main-new .case-ipc-info-new .case-ipc-info-item .checkbox-more.active{
+    background-image: url("../images/arrow-up-icon.png");
+}
+.main-new .case-ipc-info-new .case-ipc-info-item .checkbox-more{
+    background-image: url("../images/arrow-down-icon.png");
+}
+.main .case-ipc-info-new .checkbox-list.horizontal li.active{
+    background-color: rgb(92,172,235);
+}
+.main .case-ipc-info-new .checkbox-list.horizontal li.active a{
+    color: #fff;
+}
+.sub-title-bar{
+    background-image: url("../images/sub-title-bar.png");
+    height: 37px;
+    border-bottom: rgb(158,186,229) 1px solid;
+    line-height: 37px;
+}
+.sub-title-bar .sub-title-name{
+    font-size: 18px;
+    color: rgb(21,72,127);
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-new .tab-search{
+    font-size: 14px;
+    float: none;
+    color: rgb(21,72,127);
+    margin: 0 12px;
+    overflow: hidden;
+    line-height: 20px;
+}
+.main-new .tab-search label{
+    float: left;
+}
+.main-new .tab-search input[type='text']{
+    width: 100%;
+    padding: 0;
+    border: none;
+    font-size: 14px;
+}
+.main-new .tab-search input[type='text']:focus{
+    outline: none;
+}
+.main-new .tab-search input[type='text']:active{
+    outline: none;
+}
+.tab-search .input-container{
+    float: left;
+    position: relative;
+    width: 65%;
+    border: 1px solid rgb(181,181,181);
+    padding: 0 5px;
+    background-color: #fff;
+}
+.input-container .search-btn{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -8px;
+    width: 17px;
+    height: 16px;
+    background-image: url("../images/search-icon.png");
+    cursor: pointer;
+}
+.content-item{
+    padding-left: 15px;
+    position: relative;
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 23px;
+}
+.content-item .content-item-disc{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 10px;
+    background-image: url("../images/disc-deep-blue.png");
+    width: 4px;
+    height: 4px;
+}
+.content-item.indent{
+    text-indent: 32px;
+}
+.content-item .special{
+    background-color: rgb(223,232,247);
+}
+.main-new .table{
+    border-left: none;
+}
+.main-new .table th{
+    border-right: none;
+    vertical-align: middle;
+    font-size: 16px;
+}
+.main-new .table td{
+    border-right: none;
+    vertical-align: middle;
+}
+.main-new .table .table-thead th{
+    background-image: url("../images/sub-title-bar.png");
+    height: 27px;
+}
+.main-new .table .table-tbody tr td{
+    font-size: 16px;
+}
+.main-new .icon.icon-delete{
+    background-image: url("../images/delete-icon-new.png");
+}
+.main-new .icon{
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    background-position: center;
+    padding: 4px;
+    border-radius: 3px;
+}
+.icon.icon-modify{
+    background-image: url("../images/modify-icon.png");
+}
+.icon.icon-modify.active{
+    background-image: url("../images/modify-icon-active.png");
+    background-color: rgb(101,177,236);
+}
+.ipc-list li{
+    float: left;
+    margin: 3px 0;
+    position: relative;
+    padding: 5px;
+}
+.ipc-list.active li{
+    background-color: rgb(238,238,238);
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.ipc-list.active .ipc-item{
+    color: rgb(41,129,197);
+    cursor: pointer;
+}
+.ipc-list.active .btn-close{
+    position: absolute;
+    background-image: url("../images/close-icon.png");
+    width: 12px;
+    height: 12px;
+    right: -6px;
+    top: -6px;
+}
 
 /** added 2017.5.25 end **/
