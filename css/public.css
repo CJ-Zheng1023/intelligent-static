@@ -759,5 +759,52 @@ body{
 /** fandp end **/
 
 /** zhengcj start **/
+.main-new .field-item{
+    font-size: 16px;
+}
+.main-new .checkbox-list li a{
+    font-size: 16px;
+}
+.main-new .btn{
+    background: url("../images/btn-bg-new.png");
+    height: 25px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.main-new .button{
+    background-image: url("../images/btn-blue-new.png");
+    line-height: 27px;
+    font-size: 16px;
+}
+.top-info .top-info-item{
+    float: left;
+    color: #fff;
+    font-size: 18px;
+    line-height: 38px;
+    background-color: rgb(92,172,235);
+    width: 32%;
+    text-align: center;
+}
+.top-info .top-info-item.top-info-item-middle{
+    width: 36%;
+    position: relative;
+}
+.top-info .top-info-space{
+    position: absolute;
+    width: 36px;
+    height: 38px;
+    top: 0;
+    background-image: url("../images/top-space.png");
+    background-color: rgb(202,220,240);
+}
+.top-info .top-info-space.top-info-space-left{
+    left: 0;
+}
+.top-info .top-info-space.top-info-space-right{
+    right: 0;
+}
+.main-new .list-area .title-bar .btn{
+    margin-top: 12px;
+}
 
 /** zhengcj end **/
