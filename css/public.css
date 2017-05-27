@@ -729,7 +729,7 @@ body{
 
 
 /** fandp start **/
-.main-new .btn {
+.main-new .btn-group .btn {
     height: 29px;
     padding: 0 20px;
     line-height: 29px;
@@ -741,10 +741,14 @@ body{
     background: none;
     margin:5px;
 }
-.main-new .btn.active {
+.main-new .btn-group .btn.active {
     background-color:#2E8FD3;
+    background-image: none !important;
 }
-.main-new .button {
+.main-new .btn-group .btn.active a{
+    color: #fff;
+}
+.main-new .buttons-group .button {
     background-image: none;
     background-repeat: repeat-x;
     border: 1px solid rgb(158,186,229);
@@ -772,7 +776,7 @@ body{
     font-size: 16px;
 }
 .main-new .btn.active{
-    background: url("../images/btn-bg-new.png") !important;
+    background-image: url("../images/btn-bg-new.png") !important;
 }
 .main-new .button{
     background-image: url("../images/btn-blue-new.png");
