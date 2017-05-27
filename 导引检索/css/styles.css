@@ -379,4 +379,35 @@
 .main-new .tab-search.tab-search-right .input-container{
     width:300px;
 }
+/*aaaaaaa*/
+.main-new .title-bar .title-name.title-name-database-information {
+    padding-left: 27px;
+    background-image: url(../images/database-information-icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-new .databaese-box .box-content .digest-library-info{
+    border-bottom: 1px solid rgb(158,186,229);
+}
+.main-new .case-ipc-info-new .field-item {
+    font-size: 16px;
+    color: rgb(114,135,167);
+    background-image: none;
+}
+.main-new.main-guide .case-ipc-info-new .case-ipc-info-item.case-ipc-info-item {
+    padding-left: 220px;
+}
+.main-new.main-guide .case-ipc-info hr{
+    background-color: rgb(158,186,229);
+    height:1px;
+    border: 0;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.main-new .databaese-box .case-ipc-info-new .checkbox-list.horizontal li.active{
+    color: white;
+}
+.main-new .databaese-box .case-ipc-info-new .checkbox-list.horizontal li {
+    margin-right: 15px;
+}
 /*fandp end*/
