@@ -745,6 +745,9 @@ body{
     line-height: 25px;
     font-size: 16px;
 }
+.main-new .btn.active{
+    background: url("../images/btn-bg-new.png") !important;
+}
 .main-new .button{
     background-image: url("../images/btn-blue-new.png");
     line-height: 27px;
@@ -779,6 +782,39 @@ body{
 }
 .main-new .list-area .title-bar .btn{
     margin-top: 12px;
+}
+.img-list{
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+}
+.case-info{
+    padding-left: 200px;
+    height: 300px;
+}
+.img-list .img-list-inner{
+    border-right: rgb(158,186,229) 1px solid;
+    height: 100%;
+}
+.main-new .list-area .wrapper{
+    padding: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+.img-list .big-img-list{
+    float: left;
+}
+.img-list .big-img-list .img-title{
+    margin-top: 10px;
+    font-size: 14px;
+    color: rgb(11,11,11);
+}
+.img-list .big-img-list .img-title{
+
 }
 
 /** zhengcj end **/
