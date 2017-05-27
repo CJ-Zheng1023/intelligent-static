@@ -728,7 +728,7 @@ body{
 /** added 2017.5.26 end **/
 
 
-/** fandp start **/
+/** added 2017.5.27 start **/
 .main-new .btn-group .btn {
     height: 29px;
     padding: 0 20px;
@@ -760,9 +760,6 @@ body{
     margin: 0 5px;
     font-size: 14px;
 }
-/** fandp end **/
-
-/** zhengcj start **/
 .main-new .field-item{
     font-size: 16px;
 }
@@ -930,7 +927,4 @@ body{
 .main-new .case-ipc-info-new .checkbox-list li a{
     background-image: none;
 }
-
-
-
-/** zhengcj end **/
+/** added 2017.5.27 end **/
