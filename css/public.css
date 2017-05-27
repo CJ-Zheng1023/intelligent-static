@@ -927,6 +927,9 @@ body{
 .main-new .field-item .checkbox{
     background-image: url("../images/checkbox-new.png");
 }
+.main-new .case-ipc-info-new .checkbox-list li a{
+    background-image: none;
+}
 
 
 
