@@ -328,6 +328,7 @@
 
 
 
+
 /** added 2017.5.25 afernoon end **/
 
 
@@ -422,3 +423,54 @@
     margin-bottom: 20px;
 }
 /** added 2017.5.27 end **/
+/*fandp start*/
+ .unable-obtain-information-layer{
+    padding:100px 400px;
+}
+.unable-obtain-information-layer .unable-obtain-information-img{
+    text-align: center;
+    padding:10px 140px;
+}
+.unable-obtain-information-layer .unable-obtain-information-describe{
+    text-align: center;
+    font-size: 22px;
+    color: rgb(153,153,171);
+}
+.unable-obtain-information-layer .unable-obtain-information-describe{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.unable-obtain-information-layer .unable-obtain-information-describe p{
+    margin-top: 20px;
+}
+.main-guide .case-ipc-info.case-ipc-info-home .info-title{
+    font-size: 16px;
+}
+.table.ipc-table th{
+    border-right: 1px solid #d2d2d2;
+}
+.table.ipc-table td{
+    border-bottom: 1px solid #d2d2d2;
+    border-right: 1px solid #d2d2d2;
+}
+.table.ipc-table{
+    border-left: 1px solid #d2d2d2;
+}
+.table.ipc-table .classify-icon{
+    font-size: 14px;
+    background-color: rgb(92,172,235);
+    border:1px solid rgb(92,172,235);
+    border-radius: 50%;
+    color:white;
+    margin-right:10px;
+}
+.case-ipc-desc .field-item{
+    background-image: url("../images/ipc-list-icon.png");
+}
+.main-guide .case-ipc-info.case-ipc-info-home .info-title span{
+    color:rgb(169,208,243);
+}
+.main-guide .title-bar .title-name.title-name-ipc {
+    background-image: url("../images/ipc-title-icon.png");
+}
+/*fandp end*/
