@@ -401,13 +401,24 @@
     background-color: rgb(158,186,229);
     height:1px;
     border: 0;
-    margin-left: -15px;
-    margin-right: -15px;
+   /* margin-left: -15px;
+    margin-right: -15px;*/
+    margin:0px -15px;
 }
 .main-new .databaese-box .case-ipc-info-new .checkbox-list.horizontal li.active{
     color: white;
 }
 .main-new .databaese-box .case-ipc-info-new .checkbox-list.horizontal li {
-    margin-right: 15px;
+    margin-right: 20px;
+}
+.main-new .databaese-box .database-all-text-digest{
+    margin-top:30px;
+}
+.main-new .databaese-box .database-field-name-list .inner{
+    margin-bottom: 30px;
+}
+.main-new .databaese-box  li{
+    width: 86px;
+    text-align: center;
 }
 /*fandp end*/
