@@ -823,7 +823,7 @@ body{
 }
 .case-info{
     padding-left: 200px;
-    height: 300px;
+    height: 100%;
 }
 .img-list .img-list-inner{
     border-right: rgb(158,186,229) 1px solid;
@@ -834,6 +834,7 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     position: relative;
+    height: 100%;
 }
 .img-list .big-img-list{
     float: left;
@@ -843,8 +844,90 @@ body{
     font-size: 14px;
     color: rgb(11,11,11);
 }
-.img-list .big-img-list .img-title{
-
+.img-list .big-img-list .img-box{
+    border: 1px solid rgb(163,190,230);
+    margin-top: 5px;
 }
+.img-list .small-img-list{
+    float: right;
+    height: 100%;
+    background-color: rgb(249,253,255);
+    position: relative;
+    width: 60px;
+}
+.img-list .arrow{
+    width: 11px;
+    height: 7px;
+    position: absolute;
+    left: 50%;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.img-list .arrow.arrow-up{
+    background-image: url("../images/img-arrow-up-icon.png");
+    top: 7px;
+}
+.img-list .arrow.arrow-down{
+    background-image: url("../images/img-arrow-down-icon.png");
+    bottom: 7px;
+}
+.img-list .big-img-list{
+    overflow-y: hidden;
+}
+.img-list .small-img-list .smaill-img-list-inner{
+    padding: 20px  0;
+    overflow-y: hidden;
+}
+.img-list .small-img-list .img-box{
+    border: 1px solid rgb(216,216,216);
+    margin: 4px auto;
+    width: 40px;
+    cursor: pointer;
+}
+.img-list .small-img-list .img-box:hover{
+    border: 1px solid rgb(167,193,232);
+}
+.main-new .table .table-tbody tr td{
+    background-color: #fff;
+}
+.main-new .title-bar .title-name.title-name-search-key{
+    padding-left: 22px;
+    background-image: url("../images/search-key-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-new .icon.icon-view{
+    background-image: url("../images/view-icon-new.png");
+}
+.main-new .table .special{
+    color: rgb(53,156,221);
+}
+body{
+    scrollbar-base-color: rgb(203,218,239);
+
+    scrollbar-3dlight-color: rgb(203,218,239);
+
+    scrollbar-highlight-color: rgb(203,218,239);
+
+    scrollbar-track-color: #fff;
+
+    scrollbar-arrow-color: #fff;
+
+    scrollbar-shadow-color: #C0C0C0;
+
+    scrollbar-dark-shadow-color: #C0C0C0;
+}
+.main-new .checkbox-list li a{
+    background-image: url("../images/checkbox-new.png");
+    line-height: 20px;
+}
+.main-new .checkbox-list li a.active{
+    background-image: url("../images/checkbox-active-new.png");
+}
+.main-new .field-item .checkbox{
+    background-image: url("../images/checkbox-new.png");
+}
+
+
 
 /** zhengcj end **/

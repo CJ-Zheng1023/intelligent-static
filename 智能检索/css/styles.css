@@ -143,8 +143,69 @@
     background-color: rgb(212,225,242);
     background-image: none;
 }
-
-
+.main-smart .case-info-inner{
+    padding: 10px;
+}
+.main-smart .case-info-inner>.clearfix{
+    margin: 10px 0;
+}
+.main-smart .case-info-inner .half-part{
+    width: 49.9%;
+    float: left;
+}
+.main-smart .half-part .half-part-inner{
+    padding: 0 20px 0 150px;
+    position: relative;
+}
+.main-smart .half-part-inner .field-name{
+    position: absolute;
+    left: 0;
+}
+.main-smart .case-info .field-name{
+    font-size: 16px;
+    color: rgb(21, 72, 127);
+}
+.main-smart .case-info .field-value{
+    color: rgb(68,68,68);
+    font-size: 16px;
+}
+.main-smart .case-info-inner hr{
+    margin-left: -10px;
+    margin-right: -20px;
+    background-color: rgb(215,227,243);
+    height: 1px;
+    border: 0;
+}
+.main-smart .case-info-inner .name-value-wrapper .field-name{
+    width: 105px;
+    position: absolute;
+    left: 0;
+}
+.main-smart .name-value-wrapper{
+    position: relative;
+    padding-left: 115px;
+}
+.main-smart .case-info-inner .name-value-wrapper.name-value-wrapper-problem .field-name{
+    width: 230px;
+}
+.main-smart .case-info-inner .name-value-wrapper.name-value-wrapper-problem{
+    padding-left: 240px;
+}
+.main-smart.main-new .right-side .box-content{
+    height: 430px;
+}
+.main-smart.main-new .left-side .box-content form{
+    height: 436px;
+    overflow-y: auto;
+    position: relative;
+}
+.main-smart .img-list .small-img-list .smaill-img-list-inner{
+    height: 85%;
+}
+.main-new.main-smart .condition-area .form-row.form-row-button{
+    border-bottom: none;
+    border-top: 1px solid rgb(238,238,238);
+}
 
 
 /** added 2017.5.26 end **/
