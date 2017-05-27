@@ -195,9 +195,6 @@ body{
 .list-area .list-item .item-abs{
     margin-top: 13px;
     width: 900px;
-    overflow:hidden;
-    text-overflow:ellipsis;
-    white-space: nowrap;
 }
 .right-side .list-area .list-item .item-abs{
     width: 600px;
@@ -928,3 +925,43 @@ body{
     background-image: none;
 }
 /** added 2017.5.27 end **/
+
+/** zhengcj start **/
+.main-new .list-area .list-item{
+    border-left: none;
+    border-top: none;
+    border-right: none;
+}
+.main-new .list-area .list-item.active{
+    background-color: rgb(240,250,255);
+}
+.main-new .list-area .list-item .content-wrapper{
+    padding-left: 160px;
+}
+.main-new .list-area .list-item .item-title{
+    font-size: 16px;
+    color: rgb(46,143,211);
+    line-height: 29px;
+}
+.main-new .list-area .list-item .content-wrapper .item-image{
+    border: 1px solid rgb(204,204,204);
+}
+.main-new .list-area .list-item .item-content>.clearfix{
+    margin: 10px 0;
+}
+.main-new .list-area .list-item .item-content strong{
+    font-size: 16px;
+    color: rgb(102,102,102);
+    font-weight: bold;
+}
+.main-new .list-area .list-item .item-content span{
+    font-size: 16px;
+    color: rgb(102,102,102);
+}
+.main-new .list-area .list-item .item-content span.special{
+    color: rgb(46,143,211);
+}
+.indent{
+    text-indent: 32px;
+}
+/** zhengcj end **/

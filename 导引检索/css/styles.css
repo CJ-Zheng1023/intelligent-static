@@ -426,6 +426,7 @@
 /*fandp start*/
  .unable-obtain-information-layer{
     padding:100px 400px;
+     background-color: rgb(249,253,255);
 }
 .unable-obtain-information-layer .unable-obtain-information-img{
     text-align: center;
