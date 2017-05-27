@@ -446,17 +446,18 @@
 .main-guide .case-ipc-info.case-ipc-info-home .info-title{
     font-size: 16px;
 }
-.table.ipc-table th{
+.main-new .table.ipc-table th{
     border-right: 1px solid #d2d2d2;
 }
-.table.ipc-table td{
+.main-new .table.ipc-table td{
     border-bottom: 1px solid #d2d2d2;
     border-right: 1px solid #d2d2d2;
+    font-size: 16px;
 }
-.table.ipc-table{
+.main-new .table.ipc-table{
     border-left: 1px solid #d2d2d2;
 }
-.table.ipc-table .classify-icon{
+.main-new .table.ipc-table .classify-icon{
     font-size: 14px;
     background-color: rgb(92,172,235);
     border:1px solid rgb(92,172,235);
@@ -464,7 +465,8 @@
     color:white;
     margin-right:10px;
 }
-.case-ipc-desc .field-item{
+.main-new .case-ipc-desc .field-item{
+    width:68px;
     background-image: url("../images/ipc-list-icon.png");
 }
 .main-guide .case-ipc-info.case-ipc-info-home .info-title span{
@@ -472,5 +474,16 @@
 }
 .main-guide .title-bar .title-name.title-name-ipc {
     background-image: url("../images/ipc-title-icon.png");
+}
+.main-new .table.ipc-table th{
+    font-size: 18px;
+}
+.main-new  .ipc-box .no-data{
+    font-size: 16px;
+    line-height: 16px;
+    margin-right: 15px;
+}
+.main-guide .case-ipc-info.case-ipc-info-home .case-ipc-info-item{
+    margin-bottom: 23px;
 }
 /*fandp end*/
