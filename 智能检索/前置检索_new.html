@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>智能检索</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/public.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+<div class="header header-new">
+    <div class="header-inner clearfix">
+        <div class="logo">智能辅助检索</div>
+        <div class="tools clearfix">
+            <div class="menus">
+                <ul class="clearfix">
+                    <li>
+                        <a href="javascript:;" class="auto-search">自动检索</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="smart-search">智能检索</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="guide-search">导引检索</a>
+                    </li>
+                    <li>
+                        <a href="javascript:;" class="similar-search">相似度浏览</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="settings">
+                <a href="javascript:;" class="search-fields">检索项配置</a>
+                <a href="javascript:;" class="customs">检索项配置</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="main main-smart main-new">
+<div class="clearfix">
+<div class="left-side">
+    <div class="box">
+        <div class="title-bar title-bar-border-bottom">
+            <h1  class="title-name title-name-smart">智能检索</h1>
+        </div>
+        <div class="box-content">
+            <div class="condition-area">
+                <form>
+                    <div class="form-row clearfix">
+                        <div class="wrapper wrapper-left">
+                            <div class="field-item">案卷号：</div>
+                        </div>
+                        <div class="wrapper wrapper-right">
+                            <div class="input-container">
+                                <input type="text" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-row clearfix">
+                        <div class="wrapper wrapper-left">
+                            <div class="field-item">
+                                <select>
+                                    <option>CPC</option>
+                                    <option>CPC</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="wrapper wrapper-right">
+                            <div class="input-container">
+                                <input type="text" />
+                                <i class="add-icon"></i>
+                            </div>
+                            <ul class="checkbox-list horizontal clearfix">
+                                <li>
+                                    <a href="javascript:;">AND</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">OR</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="field-item"><span class="checkbox">案卷申请日之前公开的文献</span></div>
+                    </div>
+                    <div class="form-row clearfix">
+                        <div class="wrapper wrapper-left">
+                            <div class="field-item">选择数据库:</div>
+                        </div>
+                        <div class="wrapper wrapper-right">
+                            <ul class="checkbox-list horizontal clearfix">
+                                <li>
+                                    <a href="javascript:;" class="active">CNABS</a>
+                                </li>
+                                <li>
+                                    <a href="javascript:;">SIPOABS</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div  class="form-row form-row-last">
+                        <div class="clearfix form-groups">
+                            <div class="wrapper wrapper-left">
+                                <div class="field-item">发明点:</div>
+                            </div>
+                            <div class="wrapper wrapper-right">
+                                <div class="input-container">
+                                    <input type="text" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix form-groups">
+                            <div class="wrapper wrapper-left">
+                                <div class="field-item">发明点:</div>
+                            </div>
+                            <div class="wrapper wrapper-right">
+                                <div class="input-container">
+                                    <input type="text" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix form-groups">
+                            <div class="wrapper wrapper-left">
+                                <div class="field-item">发明点:</div>
+                            </div>
+                            <div class="wrapper wrapper-right">
+                                <div class="input-container">
+                                    <input type="text" />
+                                    <i class="add-icon"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="btn-wrapper">
+                            <div class="btn">
+                                <a href="javascript:;">展开</a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="form-row form-row-button">
+                    <div class="button-group">
+                        <a href="javascript:;" class="button">检 索</a>
+                        <a href="javascript:;" class="button">智能检索</a>
+                        <a href="javascript:;" class="button">重 置</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="right-side">
+    <div class="list-area">
+        <div class="top-info clearfix">
+            <div class="top-info-item">申请号：20002121</div>
+            <div class="top-info-item top-info-item-middle">
+                <i class="top-info-space top-info-space-left"></i>申请人：李白<i class="top-info-space top-info-space-right"></i>
+            </div>
+            <div class="top-info-item">发明名称：万箭齐发</div>
+        </div>
+        <div class="box">
+            <div class="title-bar title-bar-border-bottom">
+                <div class="clearfix">
+                    <div class="btn active">
+                        <a href="javascript:void(0)">前置检索</a>
+                    </div>
+                    <div class="btn">
+                        <a href="javascript:void(0)">案卷信息区</a>
+                    </div>
+                </div>
+            </div>
+            <div class=sub-title-bar>
+                <div class="clearfix">
+                    <div class="btn active">
+                        <a href="javascript:void(0)">案卷信息</a>
+                    </div>
+                    <div class="btn">
+                        <a href="javascript:void(0)">说明书摘要</a>
+                    </div>
+                    <div class="btn">
+                        <a href="javascript:void(0)">权利要求书</a>
+                    </div>
+                    <div class="btn">
+                        <a href="javascript:void(0)">说明书</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box-content">
+                <div class="wrapper">
+                    <ul>
+                        <li>
+                            <div class="list-item">
+                                <div class="clearfix">
+                                    <h1 class="item-title">高位定位嫁接快速成形的栽培法</h1>
+                                    <div class="button-group">
+                                        <a href="javascript:;" class="button">同族（1）</a>
+                                        <a href="javascript:;" class="button">引证（4）</a>
+                                        <a href="javascript:;" class="button">被引（0）</a>
+                                    </div>
+                                </div>
+                                <div class="content-wrapper">
+                                    <div class="item-image">
+                                        <img src="images/image.png" width="101" height="86">
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请人：</span>
+                                                <span>江苏省农科院</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>发明人：</span>
+                                                <span>发明人；发明人；</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请号：</span>
+                                                <span>CN123123123</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>公开号：</span>
+                                                <span>CN13413413</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请日期：</span>
+                                                <span>2013.12.12</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>IPC：</span>
+                                                <span>A01G1/06</span>
+                                            </div>
+                                        </div>
+                                        <div class="item-abs">
+                                            <span>摘要：</span>
+                                            <span>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <div class="clearfix">
+                                    <h1 class="item-title">高位定位嫁接快速成形的栽培法</h1>
+                                    <div class="button-group">
+                                        <a href="javascript:;" class="button">同族（1）</a>
+                                        <a href="javascript:;" class="button">引证（4）</a>
+                                        <a href="javascript:;" class="button">被引（0）</a>
+                                    </div>
+                                </div>
+                                <div class="content-wrapper">
+                                    <div class="item-image">
+                                        <img src="images/image.png" width="101" height="86">
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请人：</span>
+                                                <span>江苏省农科院</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>发明人：</span>
+                                                <span>发明人；发明人；</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请号：</span>
+                                                <span>CN123123123</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>公开号：</span>
+                                                <span>CN13413413</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请日期：</span>
+                                                <span>2013.12.12</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>IPC：</span>
+                                                <span>A01G1/06</span>
+                                            </div>
+                                        </div>
+                                        <div class="item-abs">
+                                            <span>摘要：</span>
+                                            <span>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="list-item">
+                                <div class="clearfix">
+                                    <h1 class="item-title">高位定位嫁接快速成形的栽培法</h1>
+                                    <div class="button-group">
+                                        <a href="javascript:;" class="button">同族（1）</a>
+                                        <a href="javascript:;" class="button">引证（4）</a>
+                                        <a href="javascript:;" class="button">被引（0）</a>
+                                    </div>
+                                </div>
+                                <div class="content-wrapper">
+                                    <div class="item-image">
+                                        <img src="images/image.png" width="101" height="86">
+                                    </div>
+                                    <div class="item-content">
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请人：</span>
+                                                <span>江苏省农科院</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>发明人：</span>
+                                                <span>发明人；发明人；</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请号：</span>
+                                                <span>CN123123123</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>公开号：</span>
+                                                <span>CN13413413</span>
+                                            </div>
+                                        </div>
+                                        <div class="clearfix">
+                                            <div class="item-field-value">
+                                                <span>申请日期：</span>
+                                                <span>2013.12.12</span>
+                                            </div>
+                                            <div class="item-field-value">
+                                                <span>IPC：</span>
+                                                <span>A01G1/06</span>
+                                            </div>
+                                        </div>
+                                        <div class="item-abs">
+                                            <span>摘要：</span>
+                                            <span>摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="table-area">
+    <div class="box">
+        <div class="title-bar">
+            <p class="title-name title-name-search-key">检索结果</p>
+        </div>
+
+        <div class="box-content">
+            <!--- table -->
+            <table class="table" cellspacing="0">
+                <thead>
+                <tr class="table-thead">
+                    <th class="t-h-w10">编号</th>
+                    <th class="t-h-w45">检索式</th>
+                    <th class="t-h-w10">命中数</th>
+                    <th class="t-h-w15">数据库</th>
+                    <th class="t-h-w10">浏览</th>
+                    <th class="t-h-w10">删除</th>
+                </tr>
+                </thead>
+                <tbody class="table-tbody">
+                <tr>
+                    <td><p>01</p></td>
+                    <td><p>(ti=手机)</p></td>
+                    <td>3</td>
+                    <td>CNABS</td>
+                    <td>
+                        <a href="javascript:;" class="icon icon-view"></a>
+                    </td>
+                    <td>
+                        <a href="javascript:;" class="icon icon-delete"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p>01</p></td>
+                    <td><p class="special">(ti=手机)</p></td>
+                    <td>3</td>
+                    <td>CNABS</td>
+                    <td>
+                        <a href="javascript:;" class="icon icon-view"></a>
+                    </td>
+                    <td>
+                        <a href="javascript:;" class="icon icon-delete"></a>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p>01</p></td>
+                    <td><p>(ti=手机)</p></td>
+                    <td>3</td>
+                    <td>CNABS</td>
+                    <td>
+                        <a href="javascript:;" class="icon icon-view"></a>
+                    </td>
+                    <td>
+                        <a href="javascript:;" class="icon icon-delete"></a>
+                    </td>
+                </tr>
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
