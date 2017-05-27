@@ -329,3 +329,54 @@
 
 
 /** added 2017.5.25 afernoon end **/
+
+
+/*fandp start*/
+.main-new .title-bar .title-name.title-name-browse{
+    padding-left: 27px;
+    background-image: url(../images/browse-icon.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+.main-new .textarea-wrapper textarea {
+    width: 96.7%;
+    border: 1px solid #9EBAE5;
+    background-color:white;
+    height: 130px;
+    padding: 10px 1%;
+    margin-left: 5px;
+}
+.main-new .textarea-wrapper {
+    margin: 11px 0;
+}
+.main-new .button.research-button{
+    background-color: #2E8FD3;
+}
+.main-new .button.split-joint-button{
+    background-color: #68AA3F;
+}
+.main-new .button.clean-out-button{
+    background-color: #E26825;
+}
+.main-new .title-bar .title-name.title-name-ipc {
+    padding-left: 27px;
+    background-image: url("../images/search-area-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    display: inline;
+}
+.main-new.main-guide  .tab-search.tab-search-right{
+    float: right;
+    margin-right: 15px;
+}
+
+.main-new .textarea-wrapper textarea:active {
+    border: 1px solid #9EBAE5;
+}
+.main-new .textarea-wrapper textarea:focus {
+    border: 1px solid #9EBAE5;
+}
+.main-new .tab-search.tab-search-right .input-container{
+    width:300px;
+}
+/*fandp end*/
