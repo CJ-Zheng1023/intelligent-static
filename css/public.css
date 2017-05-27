@@ -729,7 +729,33 @@ body{
 
 
 /** fandp start **/
-
+.main-new .btn {
+    height: 29px;
+    padding: 0 20px;
+    line-height: 29px;
+    border: 1px solid #9EBAE5;
+    font-size: 14px;
+    color: #15487F;
+    text-align: center;
+    background-color: #F3F3F3;
+    background: none;
+    margin:5px;
+}
+.main-new .btn.active {
+    background-color:#2E8FD3;
+}
+.main-new .button {
+    background-image: none;
+    background-repeat: repeat-x;
+    border: 1px solid rgb(158,186,229);
+    padding: 0 18px;
+    text-decoration: none;
+    line-height: 30px;
+    height:30px;
+    color: #fff;
+    margin: 0 5px;
+    font-size: 14px;
+}
 /** fandp end **/
 
 /** zhengcj start **/
