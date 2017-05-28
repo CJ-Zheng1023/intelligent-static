@@ -423,7 +423,9 @@
     margin-bottom: 20px;
 }
 /** added 2017.5.27 end **/
-/*fandp start*/
+
+
+/*zhengchj start*/
  .unable-obtain-information-layer{
     padding:100px 400px;
      background-color: rgb(249,253,255);
@@ -487,4 +489,53 @@
 .main-guide .case-ipc-info.case-ipc-info-home .case-ipc-info-item{
     margin-bottom: 23px;
 }
-/*fandp end*/
+.dialog-table{
+    padding: 8px;
+}
+.dialog-table table{
+    width: 100%;
+    border-left: 1px solid rgb(229,229,229);
+    border-top: 1px solid rgb(229,229,229);
+}
+.dialog-table table th{
+    padding: 20px;
+    color: #fff;
+    font-size: 16px;
+    vertical-align: middle;
+    background-color: rgb(174,200,233);
+    border-right: 1px solid rgb(229,229,229);
+    border-bottom: 1px solid rgb(229,229,229);
+}
+.dialog-table table td{
+    color: rgb(102,102,102);
+    font-size: 14px;
+    vertical-align: middle;
+    border-right: 1px solid rgb(229,229,229);
+    border-bottom: 1px solid rgb(229,229,229);
+    padding: 15px 20px;
+    position: relative;
+    cursor: pointer;
+    background-color: #fff;
+}
+.dialog-table table tr.odd td{
+    background-color: rgb(242,242,243);
+}
+.dialog-table table td .checkbox{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    width: 10px;
+    height: 10px;
+    background-image: url("../images/table-checkbox.png");
+}
+
+.dialog-table table td.active .checkbox{
+    background-image: url("../images/table-checkbox-active.png");
+}
+.dialog-table table td.locked .checkbox{
+    background-image: url("../images/table-checkbox-locked.png");
+}
+.dialog-table table td.locked{
+    color: rgb(92,172,235);
+}
+/*zhengchj end*/
