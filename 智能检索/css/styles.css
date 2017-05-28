@@ -209,3 +209,89 @@
 
 
 /** added 2017.5.28 end **/
+
+/** zhengcj start **/
+.main-smart .box-content .box-content-desc-wrapper{
+    position: relative;
+    height: 100%;
+}
+.main-smart .box-content .box-content-desc{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 200px;
+    height: 410px;
+    overflow-y: auto;
+}
+.main-smart .box-content-desc .desc-item{
+    margin: 10px 0;
+}
+.main-smart .box-content-desc .desc-item h3{
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: rgb(46,143,211);
+    font-weight: bold;
+}
+.main-smart .box-content-desc .desc-item p{
+    font-size: 16px;
+    color: rgb(102,102,102);
+    line-height: 25px;
+}
+.catalog-scroller{
+    border-left: 1px solid rgb(209,209,209);
+    right: 20px;
+    bottom: 30px;
+    position: absolute;
+}
+.catalog-scroller li{
+    padding-left: 10px;
+    position: relative;
+}
+.catalog-scroller li>a{
+    display: block;
+    padding: 10px;
+    width: 130px;
+    font-size: 14px;
+    color: rgb(102,102,102);
+}
+.catalog-scroller .catalog-list{
+    position: relative;
+}
+.catalog-scroller li>a:hover{
+    background-color: rgb(209,209,209);
+}
+.catalog-scroller .circle{
+    background-image: url("../images/catalog-cirle.png");
+    width: 10px;
+    height: 10px;
+    left: -5px;
+    position: absolute;
+}
+.catalog-scroller .circle.circle-top{
+    top: -10px;
+}
+.catalog-scroller .circle.circle-bottom{
+    bottom: -10px;
+}
+.catalog-scroller li .disc{
+    background-image: url("../images/catalog-disc.png");
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    top: 50%;
+    margin-top: -3px;
+    left: -2px;
+}
+.catalog-scroller .arrow{
+    position: absolute;
+    width: 18px;
+    height: 13px;
+    background-image: url("../images/catalog-arrow.png");
+    left: -9px;
+    top: 19px;
+    margin-top: -6px;
+    cursor: pointer;
+}
+
+
+/** zhengcj end **/
