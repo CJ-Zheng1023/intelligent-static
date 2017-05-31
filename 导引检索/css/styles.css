@@ -574,4 +574,35 @@
 .unable-obtain-information-layer-new .unable-obtain-information-describe-new p.err-info{
     font-size: 22px;
 }
+
+.main-new .databaese-box .box-content-database .select-database-table {
+    border-top:2px solid rgb(220,220,220) ;
+    border-right:2px solid rgb(220,220,220) ;
+    width:100%;
+}
+.main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody tr td{
+    border-left:2px solid rgb(220,220,220) ;
+    border-bottom:2px solid rgb(220,220,220) ;
+    padding: 20px;
+    vertical-align: middle;
+    font-size: 16px;
+
+}
+.main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody tr td.table-title{
+    text-align: center;
+    color:rgb(110,132,164);
+    background-color: rgb(246,246,246);
+}
+.main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody tr td.two{
+    columns:3;
+}
+.main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody hr{
+    background-color: rgb(158, 186, 229);
+    border: 0 none;
+    height: 2px;
+    margin:25px -15px;
+
+}
+
+
 /*fandp end*/
