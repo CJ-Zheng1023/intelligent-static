@@ -576,33 +576,53 @@
 }
 
 .main-new .databaese-box .box-content-database .select-database-table {
-    border-top:2px solid rgb(220,220,220) ;
-    border-right:2px solid rgb(220,220,220) ;
+    border-top:1px solid rgb(220,220,220) ;
+    border-right:1px solid rgb(220,220,220) ;
     width:100%;
 }
 .main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody tr td{
-    border-left:2px solid rgb(220,220,220) ;
-    border-bottom:2px solid rgb(220,220,220) ;
-    padding: 20px;
+    border-left:1px solid rgb(220,220,220) ;
+    border-bottom:1px solid rgb(220,220,220) ;
+    padding: 15px 20px;
     vertical-align: middle;
     font-size: 16px;
+    color: rgb(12,12,12);
 
 }
 .main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody tr td.table-title{
     text-align: center;
-    color:rgb(110,132,164);
+    color:rgb(21,72,127);
     background-color: rgb(246,246,246);
 }
-.main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody tr td.two{
-    columns:3;
-}
-.main-new .databaese-box .box-content-database .select-database-table .select-database-table-tbody hr{
+
+.main-new .databaese-box .box-content-database .select-database-table  hr{
     background-color: rgb(158, 186, 229);
     border: 0 none;
-    height: 2px;
-    margin:25px -15px;
-
+    height: 1px;
+    margin:25px 0;
+}
+.main-new .table-container{
+    padding: 25px 20px;
 }
 
-
+.main-new .select-database-table ul>li{
+    float: left;
+    margin: 5px 10px;
+    padding-left: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-image: url("../images/database-checkbox.png");
+}
+.main-new .select-database-table ul>li>a{
+    display: block;
+    padding: 5px 10px;
+    color: rgb(12,12,12);
+}
+.main-new .select-database-table ul>li.active{
+    background-image: url("../images/database-checkbox-active.png");
+}
+.main-new .select-database-table ul>li.active>a{
+    background-color: rgb(92,172,235);
+    color: #fff;
+}
 /*fandp end*/
