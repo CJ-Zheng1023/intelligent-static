@@ -548,3 +548,30 @@
     color: rgb(92,172,235);
 }
 /** added 2017.5.28 end **/
+
+/*fandp start*/
+.unable-obtain-information-layer .unable-obtain-information-img-new {
+    float: left;
+    padding-right:40px;
+    padding-left:0px;
+}
+.unable-obtain-information-layer .unable-obtain-information-describe-new {
+  float:left;
+}
+.unable-obtain-information-layer-new {
+    padding: 100px 295px;
+
+}
+.unable-obtain-information-layer-new {
+    padding-top:138px;
+    padding-bottom: 198px;
+}
+.unable-obtain-information-layer-new .unable-obtain-information-describe-new p {
+    text-align:left;
+    font-size: 36px;
+    color:rgb(153,153,171);
+}
+.unable-obtain-information-layer-new .unable-obtain-information-describe-new p.err-info{
+    font-size: 22px;
+}
+/*fandp end*/
