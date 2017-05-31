@@ -513,16 +513,21 @@
 .dialog-table table td{
     color: rgb(102,102,102);
     font-size: 14px;
-    vertical-align: middle;
     border-right: 1px solid rgb(229,229,229);
     border-bottom: 1px solid rgb(229,229,229);
-    padding: 15px 20px;
-    position: relative;
     cursor: pointer;
     background-color: #fff;
 }
 .dialog-table table tr.odd td{
     background-color: rgb(242,242,243);
+}
+.dialog-table table td .checkbox-wrapper{
+    height: 15px;
+    margin: 0 2px;
+    position: relative;
+}
+.dialog-table table td .td-content{
+    padding: 0 20px 15px 20px;
 }
 .dialog-table table td .checkbox{
     position: absolute;
