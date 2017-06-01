@@ -295,3 +295,37 @@
 
 
 /** zhengcj end **/
+
+/** 2017.6.1 start **/
+/*
+.main-new .list-area .list-item .content-wrapper{
+    padding-right: 40%;
+}
+.main-new .list-area .list-item .content-wrapper .item-abs{
+    right: 0;
+    top: 20px;
+    position: absolute;
+    width: 40%;
+}
+.main-new .list-area .list-item .content-wrapper .item-abs h4{
+    color: rgb(102,102,102);
+    font-size: 16px;
+}
+.main-new .list-area .list-item .content-wrapper .item-abs p{
+    font-size: 16px;
+}
+.item-content-left{
+    width: 55%;
+}
+.item-content-left .item-field-value{
+    width: 50%;
+    position: relative;
+}
+.item-content-right{
+    width: 40%;
+}
+*/
+
+
+
+/** 2017.6.1 end **/

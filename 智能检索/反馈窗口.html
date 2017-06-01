@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/public.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <style>
+        .dialog-feedback{
+            width: 700px;
+        }
+        .dialog-feedback .box-content-inner{
+            padding: 10px;
+        }
+        .dialog-feedback .box-content-inner .content-item{
+            position: relative;
+            padding-left: 140px;
+        }
+        .dialog-feedback .box-content-inner .content-item strong{
+            position: absolute;
+            left: 0;
+            font-size: 16px;
+            text-align: right;
+            width: 130px;
+            padding: 10px 0;
+        }
+        .dialog-feedback .box-content-inner .content-item .box-data-list{
+            border: 1px solid rgb(229,229,229);
+            padding: 10px;
+            min-height: 41px;
+        }
+        .dialog-feedback .box-data-list ul{
+
+        }
+        .dialog-feedback .box-data-list ul li{
+            margin: 3px 5px;
+            float: left;
+            border: 1px solid rgb(92,172,235);
+        }
+        .dialog-feedback .box-data-list a{
+            color: rgb(92,172,235);
+            padding: 5px;
+            font-size: 14px;
+            display: block;
+        }
+        .dialog-feedback .box-data-list.box-relation ul li{
+            border-color: #fff;
+        }
+        .dialog-feedback .box-data-list.box-relation a{
+            position: relative;
+            background-color: rgb(238,238,238);
+        }
+        .dialog-feedback .box-data-list.box-relation a:hover .close-btn{
+            position: absolute;
+            width: 12px;
+            height: 12px;
+            right: -6px;
+            top: -6px;
+            background-image: url("../images/close-icon.png");
+        }
+        .alert{
+            padding: 5px 35px 5px 15px;
+            font-size: 14px;
+            margin-bottom: 10px;
+            position: relative;
+        }
+        .alert.alert-warn{
+            background-color: rgb(245, 231, 158);
+            border: 1px solid rgb(245, 231, 158);
+            color: #8a6d3b;
+        }
+        .alert .btn-alert-close{
+            font-size: 13px;
+            position: absolute;
+            right: 20px;
+            color: #cecccc;
+        }
+        .alert .btn-alert-close:hover{
+            color: rgb(125,122,105);
+        }
+    </style>
+</head>
+<body>
+<div class="dialog-feedback main-new">
+    <div class="box">
+        <div class="title-bar title-bar-border-bottom">
+            <div class="title-name">案卷申请号：22222222</div>
+        </div>
+        <div class="box-content">
+            <div class="box-content-inner">
+                <div class="content-item">
+                    <div class="alert alert-warn">
+                        温馨提示：分类号可以拖拽到相关分类号和不相关分类号区域
+                        <a class="btn-alert-close" href="javascript:;" data-button="close">x</a>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <strong>分类号：</strong>
+                    <div class="box-data-list">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <strong>相关分类号：</strong>
+                    <div class="box-data-list box-relation">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <strong>不相关分类号：</strong>
+                    <div class="box-data-list box-relation">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <div class="alert alert-warn">
+                        温馨提示：关键词可以拖拽到相关关键词和不相关关键词区域
+                        <a class="btn-alert-close" href="javascript:;" data-button="close">x</a>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <strong>关键词：</strong>
+                    <div class="box-data-list">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <strong>相关关键词：</strong>
+                    <div class="box-data-list box-relation">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="content-item">
+                    <strong>不相关分关键词：</strong>
+                    <div class="box-data-list box-relation">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                            <li>
+                                <a href="javascript:;">A01/01<i class="close-btn"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../js/jquery-1.8.3.js"></script>
+<script>
+    $(function(){
+        $("[data-button='close']").on("click", function(){
+            var me = $(this);
+            me.closest(".alert").remove();
+        })
+    })
+</script>
+</body>
+</html>
